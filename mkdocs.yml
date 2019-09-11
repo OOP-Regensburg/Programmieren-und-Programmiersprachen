@@ -1,0 +1,36 @@
+site_name: OOP Online
+site_url: https://regensburger-forscher.de/oop
+site_description: Online-Material zum OOP-Kurs
+site_author: Alexander Bazo und Florin Schwappach
+copyright: MIT
+theme: 
+  name: yeti
+  custom_dir: oop-template
+plugins: 
+  - git-revision-date
+  - search:
+      lang: ["de", "en"]
+      prebuild_index: true
+extra_javascript:
+  - scripts/init.js  
+#  - scripts/quiz.js
+markdown_extensions:
+  - footnotes
+  - admonition
+  - attr_list
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.tilde
+nav:
+  - Themen: 
+    - Einführung: docs/01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen/index.md
+  - Aufgaben: tasks/index.md
+  - Informationen:
+    - Team: author.md
+    - Lizenz: licence.md
+  - Impressum: impress.md
