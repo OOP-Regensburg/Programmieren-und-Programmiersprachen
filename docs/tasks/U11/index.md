@@ -97,7 +97,7 @@ welches den vorgegebenen Text (`/data/assets/alice_wonderland.txt`) zeilenweise 
 **Entwerfen Sie geeignete Klassen für diese Aufgabe!** Das Ergebnis soll
 folgendermaßen aussehen:
 
-![image](_img/08_letters.png)
+![image](img/08_letters.png)
 
 **Hinweis:** Nutzen Sie zum Laden der Datei die statische Methode
 `loadFile` der `GraphicsApp`-Klasse.

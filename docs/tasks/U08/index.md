@@ -99,7 +99,7 @@ Ein ConsoleProgram mit folgendem Code ...
 
 sollte also folgendes Ergebnis liefern:
 
-![image](_img/07_CommaGenerator.png)
+![image](img/07_CommaGenerator.png)
 
 ### **Password Checker [gemeinsam bearbeiten]**
 
@@ -130,7 +130,7 @@ dazu die statischen Methoden der Klasse `Character`)
 
 Der PasswordChecker soll folgende Ergebnisse liefern:
 
-![image](_img/07_password.png)
+![image](img/07_password.png)
 
 ### **Scrabble Score [optional]**
 
@@ -165,7 +165,7 @@ abspeichern (z.B.: `private final String onePointChars =
 darin vorkommt (gibt -1 zurück, falls er nicht darin vorkommt). Ihr
 Programm soll am Ende folgende Ausgabe produzieren können:
 
-![image](_img/07_scrabble.png)
+![image](img/07_scrabble.png)
 
 ----
 

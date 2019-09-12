@@ -15,7 +15,7 @@ importieren.
 
 ### **Kirschen essen mit Bouncer**
 
-![Diese Kirschen muss Bouncer aufessen.](_img/Kirschen.png)
+![Diese Kirschen muss Bouncer aufessen.](img/Kirschen.png)
 
 In dieser Aufgabe liegen in Bouncers Welt einige Kirschen, die Bouncer
 sich vorknöpfen möchte. Schreiben Sie ein Programm, mit dem Sie jede
@@ -45,7 +45,7 @@ aussagekräftige Bezeichnungen für Ihre eigenen Methoden.
 nur am Rande oder gar nicht behandelt wurden. Sie ist zum Tüfteln
 gedacht.
 
-![image](_img/BunteSchleifen)
+![image](img/BunteSchleifen)
 
 In dieser Aufgabe geht es darum, ein bisschen mit der GraphicsApp zu
 experimentieren. Das Ziel ist es, ein Muster zu erzeugen, dass dem

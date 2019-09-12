@@ -17,7 +17,7 @@ Position auf der Zeichenfläche. Die Kreise müssen alle innerhalb der
 Zeichenfläche dargestellt werden. Verwenden Sie die in der Vorlesung
 vorgestellte Klasse `RandomGenerator` um alle Zufallswerte zu erzeugen.
 
-![image](_img/screenshot_randomCircles.png)
+![image](img/screenshot_randomCircles.png)
 
 Implementieren Sie eine eigene Methode pro zufälliger Eigenschaft der
 Kreise und speichern Sie den Rückgabewert in einer lokalen Variable,
@@ -39,7 +39,7 @@ Geschwindigkeit und Größe sowie eine zufällige Farbe, die sich nach
 jeder Kollision mit einer Wand zu einer anderen zufälligen Farbe ändert. Die Bälle selbst prallen nicht voneinander ab. Verwenden Sie die in der Vorlesung vorgestellte Klasse `RandomGenerator` um alle Zufallswerte zu
 erzeugen.
 
-![image](_img/screenshot_bouncingballs.png)
+![image](img/screenshot_bouncingballs.png)
 
 **Vorgehen**
 

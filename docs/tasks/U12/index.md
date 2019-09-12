@@ -14,7 +14,7 @@ Ihre Aufgabe ist es, ein Programm zu schreiben, welches aus einer Datei Flugziel
 
 Das Ergebnis sollte wie folgt aussehen:
 
-![image](_img/11_flights.png)
+![image](img/11_flights.png)
 
 **Hinweis:** Eine besondere Schwierigkeit in dieser Aufgabe ist,
 angemessene Datenstrukturen zu modellieren, um sich die Informationen,

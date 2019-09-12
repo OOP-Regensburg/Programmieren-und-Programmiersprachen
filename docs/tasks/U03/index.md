@@ -15,7 +15,7 @@ In diesem Programm kann der Nutzer eine Reihe von Ganzzahlen eingeben.
 Das Programm bestimmt die größte und kleinste Zahl und gibt diese am
 Bildschirm aus, nachdem der Nutzer die Zahl 0 eingegeben hat:
 
-![image](_img/03_findrange)
+![image](img/03_findrange)
 
 Ihr Programm muss für die folgenden Sonderfälle funktionieren:
 
@@ -31,7 +31,7 @@ Ihr Programm muss für die folgenden Sonderfälle funktionieren:
 In dieser Aufgabe sollen Sie eine Zielscheibe auf dem Bildschirm
 zeichnen:
 
-![image](_img/03_target)
+![image](img/03_target)
 
 Die Zielscheibe muss aus 15 Ellipse-Objekten bestehen und im Zentrum des
 Bildschirms gezeichnet werden. Der mittlere Ring ist rot und hat einen
@@ -67,7 +67,7 @@ Schreiben Sie ein Programm, bei dem der Nutzer die Werte für `a` und `b`
 als Ganzzahlen eingeben kann. Anschließend wird daraus `c` als `double`
 berechnet und das Ergebnis wieder an den Nutzer ausgegeben:
 
-![image](_img/03_pythagoras)
+![image](img/03_pythagoras)
 
 ### **Hailstone Puzzle [vorbereiten]**
 
@@ -117,7 +117,7 @@ wie in Hofstadters Buch beschrieben. Anschließend wird ausgegeben, wie
 viele Schritte benötigt wurden, um die Zahl 1 zu erreichen. Ihr Programm
 sollte eine Ausgabe wie im folgenden Beispiel erzeugen können:
 
-![image](_img/03_hailstone)
+![image](img/03_hailstone)
 
 ### **Fibonacci [optional]**
 
@@ -145,7 +145,7 @@ wie z.B.:
 `while (nextFib < MAX_VALUE)`\
 Legen Sie `MAX_VALUE` als Konstante ab.
 
-![image](_img/03_fibonacci)
+![image](img/03_fibonacci)
 
 ### **Schachbrett [optional]**
 
@@ -162,7 +162,7 @@ Teilen Sie das Programm in zwei Methoden auf. In der einen
 initialisieren Sie die Anwendung (Größe und Hintergrundfarbe) und in der
 anderen zeichnen Sie das Schachbrettmuster.
 
-![image](_img/03_chess)
+![image](img/03_chess)
 
 ### **Copy & Paste [optional]**
 
@@ -194,7 +194,7 @@ Bei der Bearbeitung sollten Sie über folgende Teilprobleme nachdenken:
 -   Überlegen Sie sich, wie Bouncer zu einem bestimmten Feld in der
     aktuellen Zeile zurückkehren kann.
 
-![image](_img/03_copyAndPaste)
+![image](img/03_copyAndPaste)
 
 ----
 

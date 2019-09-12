@@ -16,7 +16,7 @@ und DVDs enthalten können; eine zusätzliche `ConsoleApp` nutzt die
 implementierten Klassen um Medien durch den Benutzer einlesen zu
 lassen.
 
-![image](_img/screenshot_library.png)
+![image](img/screenshot_library.png)
 
 Im ersten Teil der Anwendung werden die nötigen Klassen für die
 Mediensammlung entworfen:
@@ -100,4 +100,4 @@ dass die verschiedenen Methoden des `GraphicsObject` die x- und
 y-Koordinaten beeinflussen und Sie die Eckpunkte Ihrer Form regelmäßig
 (z.B. vor jedem Zeichnen) neu berechnen müssen.
 
-![image](_img/screenshot_shapes.png)
+![image](img/screenshot_shapes.png)

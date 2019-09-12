@@ -23,8 +23,8 @@ Um die Klicks auch an die Klassen weitergeben zu können, müssen Sie mit `publi
 Drückt der Nutzer auf eine vorher festgelegte Taste zum Neustart, soll
 dieses Ereignis über `public void keyPressed(KeyEvent e)` abgefangen und behandelt werden.
 
-![image](_img/ClickObjects.png)
-![image](_img/ClickObjects2.png)
+![image](img/ClickObjects.png)
+![image](img/ClickObjects2.png)
 
 **Tipps:**
 
@@ -49,7 +49,7 @@ Maus auf diesen klickt, erhöht sich die Geschwindigkeit des Balls um
 eins. Gleichzeitig erhöht sich die Punktzahl des Spielers um 10. Klickt der Benutzer daneben, erhöht sich die Geschwindigkeit des Balls
 ebenfalls um eins und dem Spieler werden 10 Punkte abgezogen.
 
-![image](_img/07_minigame.png)
+![image](img/07_minigame.png)
 
 **Tipps:**
 

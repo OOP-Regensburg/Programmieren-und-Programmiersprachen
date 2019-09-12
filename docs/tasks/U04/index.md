@@ -18,7 +18,7 @@ vom Nutzer einlesen und Summe sowie den Durchschnitt berechnen. Für die
 Speicherung der eingegebenen Werte verwenden Sie ein Array vom Typen
 `int` und der Länge 5.
 
-![image](_img/04_arrayInteger.png)
+![image](img/04_arrayInteger.png)
 
 Legen Sie in Ihrem Programm eine Konstante an, die die maximale Anzahl
 an einzugebenende Zahlen definiert. Auf Klassenebene deklarieren Sie das
@@ -54,7 +54,7 @@ Ihr Programm soll eine Pyramide zeichnen, die aus einzelnen Ziegeln
 besteht, die in horizontalen Linien angeordnet werden. Die Anzahl der
 einzelnen Blöcke nimmt um einen Block pro Reihe ab:
 
-![image](_img/04_pyramid.png)
+![image](img/04_pyramid.png)
 
 Die Pyramide soll am unteren Ende der Zeichenfläche stehen und in der
 Mitte zentriert werden. Verwenden Sie mindestens die folgenden
@@ -93,13 +93,13 @@ Größe zurückgesetzt. Die Animation
 **Hinweis:** Im Starterpaket finden Sie ein animiertes GIF
 (`screenshots/expandingCircle.gif`), das den Programmablauf exemplarisch darstellt.
 
-![image](_img/04_expandingCircle.png)
+![image](img/04_expandingCircle.png)
 
 ### **Refactoring durch Methoden [vorbereiten]**
 
 **Klasse im Starterpaket:** `Target`
 
-![image](_img/04_target.png)
+![image](img/04_target.png)
 
 Im Starterprojekt für dieses Übungsblatt finden Sie eine Musterlösung
 für das Target-Programm aus der letzten Übung. Bauen Sie den Code so um,
@@ -163,7 +163,7 @@ public class Hogwarts extends ConsoleProgram {
 Erstellen Sie eine `GraphicsApp`, die einen Ball von links nach rechts
 über die Zeichenfläche springen lässt:
 
-![image](_img/04_bouncingball.png)
+![image](img/04_bouncingball.png)
 
 Der Ball startet in der linken oberen Ecke, fällt dann zu Boden und
 prallt wieder ab, solange er nicht den Bildschirm verlassen hat.

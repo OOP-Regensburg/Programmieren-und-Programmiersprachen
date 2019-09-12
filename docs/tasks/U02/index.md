@@ -13,9 +13,9 @@ Bevor Sie mit den Übungsaufgaben beginnen können, müssen Sie zuerst das enstp
 ### **Bouncer auf Schatzsuche**
 
 ![Der See vor und nachdem Bouncer nach den Schätzen getaucht
-ist.](_img/pool_start.png "fig:") ![Der See vor und nachdem
+ist.](img/pool_start.png "fig:") ![Der See vor und nachdem
 Bouncer nach den Schätzen getaucht
-ist.](_img/pool_finished.png "fig:")
+ist.](img/pool_finished.png "fig:")
 
 Bouncer steht in dieser Aufgabe vor einem See, in dem eine Reihe von
 versunkenen Schätze auf dem Grund liegen (*rote Felder*). Bouncers
@@ -86,10 +86,10 @@ eine optionale Aufgabe, an der Sie *tüfteln* können.
 
 ![Die beschädigte Mauer zu Begin des Programms und nachdem Bouncer sie
 repariert hat. Am linken Rand ist der Stapel mit den Ersatzteilen zu
-sehen.](_img/wall_start.png "fig:") ![Die beschädigte Mauer
+sehen.](img/wall_start.png "fig:") ![Die beschädigte Mauer
 zu Begin des Programms und nachdem Bouncer sie repariert hat. Am linken
 Rand ist der Stapel mit den Ersatzteilen zu
-sehen.](_img/wall_finished.png "fig:")
+sehen.](img/wall_finished.png "fig:")
 
 Als Hilfestellung können Sie von folgenden Teilproblemen ausgehen, die
 im Rahmen des Programms gelöst werden müssen.
@@ -120,7 +120,7 @@ soll, wie Sie eigene Programme zur Ausgabe von Text erstellen können.
 Schreiben Sie ein ConsoleProgram, das wie in der Vorlesung eine
 Mitteilung an den Nutzer ausgibt:
 
-![image](_img/console_finished.png)
+![image](img/console_finished.png)
 
 Nutzen Sie die Übungsmöglichkeiten und kopieren keinen Code, sondern
 tippen jedes Zeichen selbst. Achten Sie außerdem auf korrekte Einrückung
@@ -133,7 +133,7 @@ In dieser Aufgabe können Sie erste Erfahrungen mit der GraphicsApp
 sammeln. Zeichnen Sie einen überraschten Smiley, wie in der folgenden
 Abbildung dargestellt.
 
-![image](_img/face_finished.png)
+![image](img/face_finished.png)
 
 -   Ihr Programm startet in der Methode `public void setup()`.
 

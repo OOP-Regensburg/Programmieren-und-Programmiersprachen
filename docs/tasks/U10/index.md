@@ -34,7 +34,7 @@ Straße animiert:
 -   Die Geschwindigkeit des Fahrzeugs wird ebenfalls zufällig bestimmt
     (zwischen `2.0` und `10.0`).
 
-![image](_img/09_cars.png)
+![image](img/09_cars.png)
 
 Die Klasse `Car` ist vollständig für die Berechnung der Fahrzeugfarben
 und Positionen zuständig. Aus der Klasse `CarSimulator` werden lediglich die Methoden `update``()` und `draw``()` der Objekte der Klasse `Car` aufgerufen. Gegeben ist der folgende Code:
@@ -100,7 +100,7 @@ aus einem Image-Objekt die Pixel-Daten ausliest und anschließend so
 umdreht, dass das Bild horizontal gespiegelt und dann als neues
 Image-Objekt zurückgegeben wird.
 
-![image](_img/09_sopranos.png)
+![image](img/09_sopranos.png)
 
 Gegeben ist folgender Rumpf:
 
@@ -137,9 +137,9 @@ sollen Sie ähnlich wie bei der vorherigen Aufgabe nun einen
 Weichzeichnerfilter (Blur) implementieren. **Ein verschwommener Pixel
 entspricht den Durchschnittswerten aller Farbwerte des Pixels selbst und aller Farbwerte der umgebenden Pixel**. Die Effekte eines Weichzeichners zeigen die folgenden Abbildungen.
 
-![Bild ohne Blureffekt](_img/10_the_office_orig.png)
+![Bild ohne Blureffekt](img/10_the_office_orig.png)
 
-![Bild mit (mehrfachem) Blureffekt](_img/10_the_office_blur.png)
+![Bild mit (mehrfachem) Blureffekt](img/10_the_office_blur.png)
 
 Erweitern Sie die bestehende Lösung der Aufgabe `FlipImage` um eine
 weitere Methode `blurImage``(Image img)`, die ebenfalls durch Tastendruck aufgerufen werden kann.Im Gegensatz zum einfachen Spiegeln reicht es hierbei nicht aus, einzelne Pixel zu vertauschen, sondern Sie müssen auch die umliegenden Pixel miteinbeziehen (kontextabhängige Pixelmanipulation).
@@ -159,7 +159,7 @@ Auf diese Weise können Sie die Variablen x und y wie Koordinaten im Bild verwen
 
 Für den Punkt an der Stelle y\|x benötigen Sie also Farbwerte der Punkte um diesen Punkt herum, um dann den Durchschnittswert der Farben zu errechnen und somit das Bild etwas verschwimmen zu lassen.
 
-![image](_img/10_blur.png)
+![image](img/10_blur.png)
 
 Errechnen Sie nun von allen umliegenden Pixeln (siehe oben) und dem
 Pixel selbst aus der entsprechenden Farbe die Durchschnittswerte für
@@ -175,7 +175,7 @@ Beachten Sie dabei, dass überprüft werden muss, ob der entsprechende
 Pixel überhaupt noch im Bild liegt (bei \[0\]\[0\] liegen die Pixel
 links und darüber nicht mehr im Array).
 
-![image](_img/10_blur2.png)
+![image](img/10_blur2.png)
 
 ----
 

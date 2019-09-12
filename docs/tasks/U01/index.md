@@ -30,7 +30,7 @@ freie Feld betreten und dazu auch an der *Wand hoch laufen*.
 Bouncers Welt sieht in dieser Aufgabe wie folgt aus:
 
 ![Bouncers Welt in der ersten
-Aufgabe](_img/map_climbing.png)
+Aufgabe](img/map_climbing.png)
 
 Bouncer steht in einer leeren Welt, die außer ihm nur ein zwei Felder
 hohes Hindernis beeinhaltet. Bouncer soll bis zu diesem Hindernis
@@ -71,8 +71,8 @@ Bouncers Aufgabe ist es die komplette Straße zu überprüfen und alle
 zerstörten Stellen auszubessern. Am Ende sollen alle Felder der Straße
 grün eingefärbt sein:
 
-![](_img/map_street.png)
-|![](_img/street_complete.png)|
+![](img/map_street.png)
+|![](img/street_complete.png)|
 | :---: |
 |Ausgangsituation mit Schlaglöchern (oben) und reparierter Straße (unten).|
 
@@ -112,8 +112,8 @@ zu streichen. Dazu muss er den Raum betreten und dort alle Felder rot
 anmalen. Der Raum ist durch gesperrte Felder von der restlichen Karte
 abgetrennt. Bouncer startet zwei Felder vor der *Tür*.
 
-![](_img/map_painter.png)
-|![](_img/painter_finished.png)|
+![](img/map_painter.png)
+|![](img/painter_finished.png)|
 | :---: |
 |Bouncers steht vor dem Raum, den er streichen soll (oben). Nach Ablauf des Programms sollen alle Felder im Raum rot gestrichen sein (unten).|
 
