@@ -70,11 +70,35 @@ code.hljs {
     background-color: rgb(255, 255, 255);
 }
 
-/* Increase line height for all paragraphs */
+/* Make texts more readable*/
+
+body {
+    background: #FFF;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0.5em 0;
+}
 
 p {
-    line-height: 1.75em;
+    line-height: 2em;
+    font-size: 1.15em;
+    text-align: left;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-chars: auto 3;
+    -webkit-hyphenate-limit-lines: 4;
+    -ms-hyphens: auto;
+    -ms-hyphenate-limit-chars: auto 3;
+    -ms-hyphenate-limit-lines: 4;
 }
+
+ul {
+    list-style-type: square;
+}
+
 
 /* Customize admonition content */
 
@@ -108,8 +132,11 @@ video {
 
 .page_info {
     display: block;
+    width: 50%;
+    margin-left: 50%;
+    padding: 0.5em 0;
+    font-size: 0.8em;
     text-align: right;
-    padding: 0;
 }
 
 .page_info .date {
@@ -189,7 +216,13 @@ a[href*='//']:not(.button):after {
     content: "\f0c1";
 }
 
-/* Customized tables */
+/* Customize link color */
+
+a {
+    color: rgb(156, 0, 75);
+}
+
+/* Customize tables */
 
 thead {
     background-color: rgb(50, 50, 50);

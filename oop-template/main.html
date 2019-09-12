@@ -1,3 +1,4 @@
+<html lang="de">
 {% extends "base.html" %}
 
 {% block styles %}
@@ -5,6 +6,9 @@
     <link rel="stylesheet" type="text/css" href="{{ base_url }}/css/oop-online.css" />
     <link href="{{ base_url }}/vendors/fontawesome-free-5.4.2-web/css/brands.css" rel="stylesheet">
     <link href="{{ base_url }}/vendors/fontawesome-free-5.4.2-web/css/all.css" rel="stylesheet">
+ 	{% if page.meta.hide_toc %}
+    <style>.col-md-3 { display: none; } .col-md-9 { width: 100%; }</style>
+    {% endif %}
 {% endblock %}
 
 {% block content %}

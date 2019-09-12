@@ -1,3 +1,7 @@
+---
+hide_toc: true
+---
+
 # Impressum
 
 ## Kontakt
@@ -46,15 +50,25 @@ Wir setzen keine automatische Entscheidungsfindung oder ein Profiling ein.
 Wenn Sie unsere Webseite lediglich informatorisch nutzen (also keine Registrierung und auch keine anderweitige Übermittlung von Informationen), erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten:
 
 - IP-Adresse
+
 - Internet-Service-Provider des Nutzers
+
 - Datum und Uhrzeit des Abrufs
+
 - Browsertyp
+
 - Sprache und Browser-Version
+
 - Inhalt des Abrufs
+
 - Zeitzone
+
 - Zugriffsstatus/HTTP-Statuscode
+
 - Datenmenge
+
 - Websites, von denen die Anforderung kommt
+
 - Betriebssystem.
 
 Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten von Ihnen findet nicht statt. Diese Daten dienen dem Zweck der nutzerfreundlichen, funktionsfähigen und sicheren Auslieferung unserer Website an Sie mit Funktionen und Inhalten sowie deren Optimierung und statistischen Auswertung. Rechtsgrundlage hierfür ist unser in den obigen Zwecken auch liegendes berechtigtes Interesse an der Datenverarbeitung nach Art. 6 Abs. 1 S.1 lit. f) DS-GVO. Wir speichern aus Sicherheitsgründen diese Daten in Server-Logfiles für die Speicherdauer von 180 Tagen. Nach Ablauf dieser Frist werden diese automatisch gelöscht, es sei denn wir benötigen deren Aufbewahrung zu Beweiszwecken bei Angriffen auf die Serverinfrastruktur oder anderen Rechtsverletzungen.
@@ -64,12 +78,16 @@ Eine Speicherung dieser Daten zusammen mit anderen personenbezogenen Daten von I
 Zum Betrieb der Webseite werden externe Bibliotheken fremder Hersteller eingebunden. Es handelt sich dabei um die folgenden Produkte, die über unseren eigenen Server integriert werden.
 
 - [Bootstrap](https://getbootstrap.com/)
+
 - [JQuery](https://jquery.com/)
+
 - [Font Awesome](https://fontawesome.com/)
 
 Zusätzlich werden die folgenden Bibliotheken über verschiedene *Content Delivery Networks* von fremden Servern bezogen:
 
+
 - [Highlight.js](https://highlightjs.org/)
+
 
 ### Cookies
 
@@ -109,9 +127,13 @@ Sie haben ein Recht auf Löschung Ihrer bei uns gespeicherten Daten nach Art. 17
 
 #### Recht auf Einschränkung
 Sie haben das Recht, eine Einschränkung bei der Verarbeitung Ihrer personenbezogenen Daten zu verlangen, wenn eine der Voraussetzungen in Art. 18 Abs. 1 lit. a) bis d) DS-GVO erfüllt ist:
+
 - Wenn Sie die Richtigkeit der Sie betreffenden personenbezogenen für eine Dauer bestreiten, die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen;
+
 - die Verarbeitung unrechtmäßig ist und Sie die Löschung der personenbezogenen Daten ablehnen und stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangen;
+
 - der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger benötigt, Sie diese jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigen, oder
+
 - wenn Sie Widerspruch gegen die Verarbeitung gemäß Art. 21 Abs. 1 DS-GVO eingelegt haben und noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber Ihren Gründen überwiegen.
 
 #### Recht auf Datenübertragbarkeit
