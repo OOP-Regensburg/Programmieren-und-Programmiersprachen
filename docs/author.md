@@ -1,3 +1,7 @@
+---
+hide_toc: true
+---
+
 # Kursleitung
 
 <img src="../img/author-profil.png" alt="Profilbild Alexander Bazo" class="profil"/> 
