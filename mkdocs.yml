@@ -28,9 +28,10 @@ markdown_extensions:
   - pymdownx.tilde
 nav:
   - Themen: 
-    - Einführung: docs/01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen/index.md
+    - Übersicht: class/00-Uebersicht
+    - Einführung: class/01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen
   - Übungsblätter: 
-    - Übersicht: tasks/index.md
+    - Übersicht: tasks
     - U01: tasks/U01
     - U02: tasks/U02
     - U03: tasks/U03
@@ -44,6 +45,9 @@ nav:
     - U11: tasks/U11
     - U12: tasks/U12
   - Informationen:
+    - Umgang mit Plagiate: class/Plagiate
+    - Studienleistungen: class/Studienleistung
+    - Klausur: class/Klausur
     - Team: author.md
     - Lizenz: licence.md
   - Impressum: impress.md

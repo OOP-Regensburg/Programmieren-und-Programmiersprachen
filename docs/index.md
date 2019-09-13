@@ -4,6 +4,9 @@ date: 11. September 2019
 hide_toc: true
 ---
 
+!!! danger "Aktuelle Informationen"
+	Die auf dieser Seite bereitgestellten Informationen gelten für das **Wintersemester 2019/20**. Der Kurs beginnt mit der Vorlesung am 15. Oktober 2019 (12 Uhr, Raum H2). Die Übungen finden ab Mittwoch, dem 16. Oktober, statt. Die [Klausur](class/Klausur) wird am 18. Februar 2020 geschrieben. HInweise zu der aktuellen Studienleistung finden Sie [hier](class/Studienleistung).
+
 # Einführung in die Programmierung mit Java
 
 Der Kurs *Einführung in die Programmierung mit Java* führt in die grundlegenden Prinzipien der prozeduralen und objektorientierten Entwicklung von Software ein. Am Beispiel der Programmiersprache Java werden zentrale Konzepte der Planung und Strukturierung von Computerprogrammen erläutert. Dazu gehört die Verwendung von Variablen, Methoden und Kontrollstrukturen zur Steuerung des Programmablaufs sowie die Modellierung und Verwendung von Objekten und Datenstrukturen zur Abbildung von Informationen.
@@ -26,6 +29,4 @@ Der Kurs *Einführung in die Programmierung mit Java* bildet das Modul *PI-BA-M0
 
 ## Prüfungsleistungen
 
-**Studienleistung:** Die verpflichtende Studienleistungen setzt sich aus insgesamt drei Programmieraufgabe zusammen, die Sie semesterbegleitend bearbeiten müssen. Die Bearbeitungsdauer beträgt dazu jeweils drei Wochen. Zu Beginn der Bearbeitungszeit erhalten Sie eine ausführliche Aufgabenbeschreibung sowie ein Code-Grundgerüst, das als Ausgangslage für Ihre eigene Lösung dient. Die Aufgaben müssen selbständig gelöst werden und werden anhand ihrer funktionalen Vollständigkeit und dem Grad der Code-Qualität bewertet. Sie müssen mindestens zwei von drei Programmieraufgaben erfolgreich lösen, um zur Modulprüfung (Klausur) zugelassen zu werden.
-
-**Klausur:** Der Kurs wird mit einer schriftlichen Klausur abgeschlossen, die nach Ende der Vorlesungszeit geschrieben wird. Aus der Klausurnote ergibt sich die Modulnote.
+Um den Kurs - und damit auch das Modul *PI-BA-M01* - erfolgreich abzuschließen, müssen Sie die [Klausur](class/Klausur) am Ende der Vorlesungszeit bestehen. Die Modulnote entspricht zu 100% der Note, die Sie in der Klausur erwerben. Vorraussetzung für die Zulassung zur Klausur ist die erfolgreiche abgelegte der [Studienleistung](class/Studienleistung). Diese besteht aus drei Programmieraufgaben, die Sie im Rahmen des Semester bearbeiten und von denen Sie mindestens zwei bestehen müssen.
