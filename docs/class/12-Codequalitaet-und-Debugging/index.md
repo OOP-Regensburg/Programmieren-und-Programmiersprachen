@@ -1,0 +1,2 @@
+# Qualitätsaspekte von Quellcode
+
