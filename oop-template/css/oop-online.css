@@ -151,9 +151,10 @@ video {
 /* Add custom rules to display profil picture */
 
 img.profil {
+    float: left;
     display: block;
-    width: 20%;
-    float: right;
+    width: 10%;
+    margin-left: 2.5%;
     border-radius: 50%;
     border: solid 5px #FAFAFA;
 }
@@ -164,8 +165,17 @@ img.center {
     margin: 0 auto;
 }
 
-description.profil {
+.description.profil {
+    display: block;
+    width: 80%;
+    margin-left: 15%;
+}
+
+.description.profil:after {
+    content: "";
+    display: block;
     clear: both;
+    margin-bottom: 2.5%;
 }
 
 /* Add custom rules to display github icon as link to repositories */
