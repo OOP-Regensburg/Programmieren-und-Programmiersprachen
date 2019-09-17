@@ -1,6 +1,6 @@
 ---
 author:	Alexander Bazo
-date: 13. September 2019
+date: 13	. September 2019
 hide_toc: true
 ---
 

@@ -18,8 +18,7 @@ Dies kann erhebliche Folgen für Ihre Studienplanung haben.
 
 Wir gehen entschieden gegen Plagiate vor. Jeder hat einen eigenen individuellen Programmierstil: Auch wenn Sie Lösungen von anderen verändern und Kommentare und Benennungen anpassen, fällt dies auf. Jede eingereichte Lösung wird von uns manuell und automatisiert mit anderen Lösungen (auch aus Vorsemestern) und Code aus dem WWW verglichen.
 
-In den vorliegenden Richtlinien wollen wir unsere Erwartungen möglichst klar darstellen: In höheren Semestern werden Sie öfter in Gruppen arbeiten. In Kursen, in denen Grundlagen vermittelt werden, müssen Sie aber Ihre eigenen Arbeiten einrei-
-chen. Nur auf diesem Weg haben Sie die Möglichkeit, den Stoff zu verstehen und zu verinnerlichen.
+In den vorliegenden Richtlinien wollen wir unsere Erwartungen möglichst klar darstellen: In höheren Semestern werden Sie öfter in Gruppen arbeiten. In Kursen, in denen Grundlagen vermittelt werden, müssen Sie aber Ihre eigenen Arbeiten einreichen. Nur auf diesem Weg haben Sie die Möglichkeit, den Stoff zu verstehen und zu verinnerlichen.
 
 ## Regeln für einzureichende Arbeiten und Aufgaben
 
