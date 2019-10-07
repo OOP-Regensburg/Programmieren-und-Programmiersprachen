@@ -5,7 +5,7 @@ date: 13. September 2019
 
 # Übersicht über die Kursthemen
 
-Im Kurs werden die folgenden Themen behandelt. Angegegben ist jeweils das Datum der Vorlesung (Dienstags). Die Zentralübung greift die Vorlesungsthemen auf und demonstriert diese an praktischen Beispielen. Die Übungswoche beginnt am Mittwoch mit Aufgaben zur aktuellen Vorlesung. Zu jedem Thema finden Sie hier einen Verweis zur Übersichtsseite mit einer kurzen Zusammenfassung des Themas und Links zu den jeweiligen Materialien (Folien und Beispiele) sowie die passenden Übungsblätter. Informationen zu den Inhalten und Fristen der Studienleistungen finden Sie [hier](../Studienleistung).
+Im Kurs werden die folgenden Themen behandelt. Angegeben ist jeweils das Datum der Vorlesung (Dienstags). Die Zentralübung greift die Vorlesungsthemen auf und demonstriert diese an praktischen Beispielen. Die Übungswoche beginnt am Mittwoch mit Aufgaben zur aktuellen Vorlesung. Zu jedem Thema finden Sie hier einen Verweis zur Übersichtsseite mit einer kurzen Zusammenfassung des Themas und Links zu den jeweiligen Materialien (Folien und Beispiele) sowie die passenden Übungsblätter. Informationen zu den Inhalten und Fristen der Studienleistungen finden Sie [hier](../Studienleistung).
 
 Woche | Vorlesung am | Vorlesung und Zentralübung | Übung | Themen
 :----:|:------------:|:---------------------------|:------|:-----

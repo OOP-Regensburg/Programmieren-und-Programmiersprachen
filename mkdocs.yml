@@ -58,10 +58,15 @@ nav:
     - U10: tasks/U10
     - U11: tasks/U11
     - U12: tasks/U12
+  - Tutorials:
+    - Die Entwicklungsumgebung: tutorials/Entwicklungsumgebung
+    - Im- und Export von Projekten: tutorials/Starterprojekte
+    - Bouncer: tutorials/Bouncer
   - Informationen:
-    - Umgang mit Plagiate: class/Plagiate
-    - Studienleistungen: class/Studienleistung
-    - Klausur: class/Klausur
+    - Umgang mit Plagiate: infos/Plagiate
+    - Softwareentwicklung: infos/Softwareentwicklung
+    - Studienleistungen: infos/Studienleistung
+    - Klausur: infos/Klausur
     - Team: team.md
     - Lizenz: licence.md
   - Impressum: impress.md
