@@ -3,12 +3,7 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
-
-## Übung zur Einführung in die objektorientierte Programmierung mit Java
-
 # Übungsblatt 1
-
-
 
 Bevor Sie mit den Übungsaufgaben beginnen können, müssen Sie zuerst die
 Softwareentwicklungsumgebung IntelliJ sowie die aktuelle Version des
@@ -17,20 +12,21 @@ JAVA JDK installieren und das Bouncer-Projekt für dieses Übungsblatt
 Sie dazu die Handouts zum *Importieren von Starterprojekten in IntelliJ*
 sowie zu *Bouncer - Erste Schritte mit JAVA*.
 
-Hinweise zu Bouncers Welt
--------------------------
+!!! hint "Hinweise zu Bouncers Welt"
+    Bouncers Welt ist 2-dimensional und wir betrachten sie von der Seite.
+    Der untere Kartenrand stellt den Boden der Welt da, der obere ist die
+    Decke. In der Welt gibt es keine Schwerkraft, d.h. Bouncer kann jedes
+    freie Feld betreten und dazu auch an der *Wand hoch laufen*.
 
-Bouncers Welt ist 2-dimensional und wir betrachten sie von der Seite.
-Der untere Kartenrand stellt den Boden der Welt da, der obere ist die
-Decke. In der Welt gibt es keine Schwerkraft, d.h. Bouncer kann jedes
-freie Feld betreten und dazu auch an der *Wand hoch laufen*.
+## Starterpaket und Lösung
 
-### **Bouncer und das erste Hindernis**
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe sowie einen Lösungsvorschlag finden Sie auf [Github](https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Bundesliga). Die Lösung findet sich im `master`-Branch des verlinkten Repositories. Das Starterpaket im `starter`-Branch.
+
+## **Bouncer und das erste Hindernis**
 
 Bouncers Welt sieht in dieser Aufgabe wie folgt aus:
 
-![Bouncers Welt in der ersten
-Aufgabe](img/map_climbing.png)
+![Bouncers Welt in der ersten Aufgabe](img/map_climbing.png)
 
 Bouncer steht in einer leeren Welt, die außer ihm nur ein zwei Felder
 hohes Hindernis beeinhaltet. Bouncer soll bis zu diesem Hindernis
@@ -64,7 +60,7 @@ darauf, sowohl den Code als auch die Kommentare (z.B. *pre*- und
 *post-conditions*) in Englisch zu schreiben. Verwenden Sie
 aussagekräftige Bezeichnungen für Ihre eigenen Methoden.
 
-### **Bouncer repariert eine Straße**
+## Bouncer repariert eine Straße
 
 Bouncer steht auf einer grünen Straße mit einigen Schlaglöchern (rot).
 Bouncers Aufgabe ist es die komplette Straße zu überprüfen und alle
@@ -72,9 +68,8 @@ zerstörten Stellen auszubessern. Am Ende sollen alle Felder der Straße
 grün eingefärbt sein:
 
 ![](img/map_street.png)
-|![](img/street_complete.png)|
-| :---: |
-|Ausgangsituation mit Schlaglöchern (oben) und reparierter Straße (unten).|
+![](img/street_complete.png)
+<div class="img-label">Ausgangsituation mit Schlaglöchern (oben) und reparierter Straße (unten).</div>
 
 Die Ausgangsbedingung für diese Aufgabe ist wie folgt: Bouncer steht am unteren Kartenrand auf dem ersten Feld (0,14) der Straße und schaut nach Osten. Die Straße führt bis zur gegenüberliegenden Wand und beeinhaltet verschiedene Schlaglöcher.
 
@@ -94,18 +89,22 @@ betrachten müssen. Die Farbe eines Feldes können Sie mit dem Befehl `isOnField
 
 **Beispiel:** Verwenden Sie eine `if`-Abfrage, um Informationen über Bouncers Umgebung zu erhalten. Wenn Sie wissen möchten, ob das Feld vor Bouncer frei ist, können Sie folgende Konstruktion verwenden:
 
-    if(bouncer.canMoveForward()) {
+```java
+if(bouncer.canMoveForward()) {
     // Die Befehle zwischen diesen Klammern werden nur dann
     // ausgefuehrt, wenn das Feld vor Bouncer frei ist.
-    }
+}
+```
 
 **Beispiel:** Verwenden die -Anweisung um Bouncer Dinge so lange tun zu lassen, bis eine bestimmte Situation eintritt. Um Bouncer so lange in die aktuelle Blickrichtung laufen zu lassen, bis er an den Kartenrand oder ein blockiertes Feld stößt, können Sie diese Konstruktion verwenden:
 
-    while(bouncer.canMoveForward()) {
-        move();
-    }
+```java
+while(bouncer.canMoveForward()) {
+    move();
+}
+```
 
-### **Bouncer als Maler**
+## Bouncer als Maler
 
 Bouncers Aufgabe in diesem Programm ist es, einen Raum komplett in rot
 zu streichen. Dazu muss er den Raum betreten und dort alle Felder rot
@@ -113,11 +112,11 @@ anmalen. Der Raum ist durch gesperrte Felder von der restlichen Karte
 abgetrennt. Bouncer startet zwei Felder vor der *Tür*.
 
 ![](img/map_painter.png)
-|![](img/painter_finished.png)|
-| :---: |
-|Bouncers steht vor dem Raum, den er streichen soll (oben). Nach Ablauf des Programms sollen alle Felder im Raum rot gestrichen sein (unten).|
+![](img/painter_finished.png)
 
-*Benutzen Sie die Karte **Painter** um die korrekte Welt zu laden*. Ihr Programm sollte jedoch allgemein genug verfasst sein, um auch andere Räume verabeiten zu können. Sie können die Allgemeingültigkeit Ihres Programmes mit der Karte **Painter\_large** testen. Es gelten folgende Annahmen:
+<div class="img-label">Bouncers steht vor dem Raum, den er streichen soll (oben). Nach Ablauf des Programms sollen alle Felder im Raum rot gestrichen sein (unten)</div>
+
+*Benutzen Sie die Karte **Painter** um die korrekte Welt zu laden*. Ihr Programm sollte jedoch allgemein genug verfasst sein, um auch andere Räume verabeiten zu können. Sie können die Allgemeingültigkeit Ihres Programmes mit der Karte **Painter_large** testen. Es gelten folgende Annahmen:
 
 -   Der Raum befindet sich östlich von Bouncer
 
