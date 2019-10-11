@@ -1,7 +1,7 @@
 # Bouncer 
 
-![Bouncers Welt](img/bouncer.png)
-
+![Bouncers Welt](img/bouncer.png){: class=center }
+<span class="img-label">Screenshot eines laufenden *Bouncer*-Programms</span>
 
 Sie lernen in diesem Kurs die Grundlagen der objekt-orientierten
 Programmierung anhand der Programmiersprache JAVA. Als Einstieg in die
@@ -63,6 +63,7 @@ anpassen oder den [Online-Editor](http://bouncer.regensburger-forscher.de/) verw
 erstellte Karte in den entsprechenden Ordner kopieren.
 
 ![Geöffnetes Bouncer-Programm](img/bouncer-programm.png)
+<span class="img-label">Quellcode eines einfachen *Bouncer*-Programms</span>
 
 ### Starten eines Bouncer-Programms
 
@@ -85,9 +86,12 @@ Bouncer-Projekt auswähle. Speichern Sie die Einstellungen durch
 einen Klick auf *Apply* oder *Ok*. Anschließenden können Sie die
 Konfiguration in der Auswahlliste anwählen und starten.
 
-![IntelliJ: Run-Confoguartions einsehen](img/config-einsehen.png)
-![IntelliJ: Run-Confoguartion hinzufügen](img/config-hinzu.png)
-![IntelliJ: Run-Confoguartion editieren](img/config-edit.png)
+![IntelliJ: Run-Configuartions einsehen](img/config-einsehen.png)
+<span class="img-label">Kontextmenü zum Erstellen einer neuen *Run Configuration*</span>
+![IntelliJ: Run-Configuartion hinzufügen](img/config-hinzu.png)
+<span class="img-label">Erstellen einer neuen *Run Configuration*</span>
+![IntelliJ: Run-Configuartion editieren](img/config-edit.png)
+<span class="img-label">Bearbeiten einer *Run Configuration*</span>
 
 ## Bouncers Welt
 

@@ -23,7 +23,7 @@ Um auf Ihrem eigenen Computer mit IntelliJ zu arbeiten müssen Sie die Entwicklu
 
 Um Software mit der Programmiersprache Java zu entwickeln, benötigen Sie das Java Development Kit. Dieses Kit besteht aus mehreren Programmen und Klassenbibliotheken und kann für alle gängigen Betriebssysteme bezogen und installiert werden. Für diesen Kurs wird das OpenJDK in der Version 8 verwendet. Die passende Installationsdateie für Ihr Betriebsystem können Sie auf [dieser Website](https://adoptopenjdk.net/) herunterladen.  Nach dem Download folgen Sie den Anweisungen für das jeweilige Betriebssystem. Sollten Sie bereits eine Java-Laufzeitumgebung auf Ihrem Rechner haben, wird die im JDK mitgelieferte Runtime parallel installiert.
 
-![Meldung der Windows-Firewall beim Starten von IntelliJ](img/firewall-meldung.png)
+![Meldung der Windows-Firewall beim Starten von IntelliJ](img/firewall-meldung.png){: class=center }
 
 ### IntelliJ installieren
 
