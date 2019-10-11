@@ -5,24 +5,22 @@ date: 11. September 2019
 
 # Übungsblatt 1
 
-Bevor Sie mit den Übungsaufgaben beginnen können, müssen Sie zuerst die
-Softwareentwicklungsumgebung IntelliJ sowie die aktuelle Version des
-JAVA JDK installieren und das Bouncer-Projekt für dieses Übungsblatt
-(`Starterpaket U01: Hello Bouncer.zip`) importieren. In *GRIPS* finden
-Sie dazu die Handouts zum *Importieren von Starterprojekten in IntelliJ*
-sowie zu *Bouncer - Erste Schritte mit JAVA*.
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+ - [Bouncer](https://regensburger-forscher.de/oop/tutorials/Bouncer/)
+
+## Starterpaket
+
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Regensburg/Bouncer-Exercise-01/archive/Starterpaket.zip).
+
+## **Bouncer und das erste Hindernis**
 
 !!! hint "Hinweise zu Bouncers Welt"
     Bouncers Welt ist 2-dimensional und wir betrachten sie von der Seite.
     Der untere Kartenrand stellt den Boden der Welt da, der obere ist die
     Decke. In der Welt gibt es keine Schwerkraft, d.h. Bouncer kann jedes
     freie Feld betreten und dazu auch an der *Wand hoch laufen*.
-
-## Starterpaket und Lösung
-
-Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe sowie einen Lösungsvorschlag finden Sie auf [Github](https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Bundesliga). Die Lösung findet sich im `master`-Branch des verlinkten Repositories. Das Starterpaket im `starter`-Branch.
-
-## **Bouncer und das erste Hindernis**
 
 Bouncers Welt sieht in dieser Aufgabe wie folgt aus:
 
@@ -149,9 +147,3 @@ Teilaufgaben beschreiben:
 3.  Rückkehr zum Boden und Wechsel zum nächsten Feld
 
 4.  Weitermachen, bis Bouncer den Raum komplett gestrichen hat
-
------------------------------------
-
-**Hinweis:** Übungsaufgaben und Konzept basieren zum Teil auf dem Kurs
-*CS106A: Programming Methodology* der Universität Stanford von Eric
-Roberts und Mehran Sahami
