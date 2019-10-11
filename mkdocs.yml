@@ -59,9 +59,9 @@ nav:
     - U11: tasks/U11
     - U12: tasks/U12
   - Tutorials:
+    - Bouncer: tutorials/Bouncer
     - Die Entwicklungsumgebung: tutorials/Entwicklungsumgebung
     - Im- und Export von Projekten: tutorials/Starterprojekte
-    - Bouncer: tutorials/Bouncer
   - Informationen:
     - Umgang mit Plagiate: infos/Plagiate
     - Softwareentwicklung: infos/Softwareentwicklung
