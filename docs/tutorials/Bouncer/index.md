@@ -1,3 +1,8 @@
+---
+author: Alexander Bazo
+date: 14. Oktober 2019
+---
+
 # Bouncer 
 
 ![Bouncers Welt](img/bouncer.png){: class=center }
@@ -49,12 +54,12 @@ public class FirstTask extends BouncerApp {
 
 
 Die einfachste Möglichkeit, eigene Bouncer-Programme zu entwickeln,
-besteht darin, das Starterpaket aus dem GRIPS-Kurs herunterzuladen und
-in *IntelliJ* zu öffnen.[^3] Nach dem Import finden Sie im
+besteht darin, das Starterpaket aus dem GRIPS-Kurs herunterzuladen [und
+in *IntelliJ* zu öffnen](../Starterprojekte). Nach dem Import finden Sie im
 `src/demo`-Ordner des Projekts die Datei `BouncerDemo.java`, die Sie
-bearbeiten können, um Bouncer zu steuern.
+bearbeiten können, um Bouncer zu steuern. Über die zusätzliche Datei `BouncerDemoLauncher.java` kann das in `BouncerDemo.java` verfasste Programm gestartet werden. Klicken Sie dazu mit der rechten Maustaste auf den Eintrag im Dateibaum (linke Bildschirmseite) und wählen Sie `Run 'BouncerDemoLauncher...main()'` aus.  Alternativ können Sie auch über das Menü `Run` und den dortigen Eintrag `Run` eine Liste der aktuell geöffneten Programme anzeigen lassen, und das gewünschte Bouncer-Programm durch einen Mausklick auf dessen Namen starten.
 
-Im Ordner `src/data/assets` finden Sie eine Auswahl vorgefertigter
+Im Ordner `data/assets` finden Sie eine Auswahl vorgefertigter
 Karten. In ihrem Programm können Sie diese Karten innerhalb der
 `bounce`-Methode laden, in dem Sie den Befehl `loadMap()` mit dem
 entsprechenden Kartennamen (ohne *.xml*) als Parameter verwenden. Wenn
@@ -65,33 +70,6 @@ erstellte Karte in den entsprechenden Ordner kopieren.
 ![Geöffnetes Bouncer-Programm](img/bouncer-programm.png)
 <span class="img-label">Quellcode eines einfachen *Bouncer*-Programms</span>
 
-### Starten eines Bouncer-Programms
-
-Zum Starten eines Programms in *IntelliJ* wird eine *Run Configuration*
-benötigt. In den Starterpaketen und Beispielen finden Sie vorgefertigte
-Konfigurationen für die unterschiedlichen Aufgaben. Sie können diese
-nutzen, indem Sie in *IntelliJ* die Auswahlliste im rechten Bereich des
-Bildschirms benutzen, die gewünschte Konfiguration
-auswählen und diese anschließend über den grünen Pfeil neben der Liste
-starten.
-
-Sollte keine *Run Configuration* vorhanden sein, können Sie selbst eine
-solche erstellen. Wählen Sie dazu in der Auswahlliste den Punkt *Edit Configurations aus.* Im
-nächsten Dialog erstellen Sie über das Plus-Zeichen (links
-oben) eine neue Konfiguration für ein *Applet*.
-
-Im nächsten Schritt müssen Sie der neu erstellten Konfiguration einen
-Namen geben und unter dem Punkt *Applet class* die Datei mit Ihrem
-Bouncer-Projekt auswähle. Speichern Sie die Einstellungen durch
-einen Klick auf *Apply* oder *Ok*. Anschließenden können Sie die
-Konfiguration in der Auswahlliste anwählen und starten.
-
-![IntelliJ: Run-Configuartions einsehen](img/config-einsehen.png)
-<span class="img-label">Kontextmenü zum Erstellen einer neuen *Run Configuration*</span>
-![IntelliJ: Run-Configuartion hinzufügen](img/config-hinzu.png)
-<span class="img-label">Erstellen einer neuen *Run Configuration*</span>
-![IntelliJ: Run-Configuartion editieren](img/config-edit.png)
-<span class="img-label">Bearbeiten einer *Run Configuration*</span>
 
 ## Bouncers Welt
 
@@ -131,7 +109,7 @@ Jedes Bouncer-Programm besteht aus einer zentralen Klasse, die von
 `BouncerApp` erbt. Innerhalb dieser Klasse gibt es eine Methode
 `bounce()`. Alle Befehle, die Sie in diese Methode einfügen, werden
 nacheinander abgearbeitet. Das Programm beendet die Ausführung, wenn der
-letzte Befehl dieser Methode verabeitet wurde. Innerhalb des
+letzte Befehl dieser Methode verarbeitet wurde. Innerhalb des
 Bouncer-Programms können zusätzliche Methoden angelegt werden, die dann
 in der `bounce()`-Methode genutzt werden können.
 
@@ -223,8 +201,8 @@ einem Strichpunkt `;` abgeschlossen werden.
 
 Dieser Befehl lädt eine Karte. In den Klammern wird der Name der zu
 ladenden Karte angegeben. Die jeweiligen Dateien müssen sich im Ordner
-`assets` im Projekt-Verzeichnis befinden. In dem Starterpaket befindet
-sich eine leere Karte, diese können Sie mit dem Befehl `loadMap(Empty)`
+`data/assets` im Projekt-Verzeichnis befinden. In dem Starterpaket befindet
+sich eine leere Karte, diese können Sie mit dem Befehl `loadMap("Empty")`
 laden. **Anders als die übrigen Befehle wird `loadMap` nicht an Bouncer
 selbst geschickt sondern direkt aufgerufen.**
 
@@ -496,5 +474,3 @@ while(bouncer.canMoveForward()) {
 [^1]: <http://en.wikipedia.org/wiki/Karel_(programming_language)>
 
 [^2]: <http://web.stanford.edu/class/cs106a/materials/karel-the-robot-learns-java.pdf>
-
-[^3]: Siehe dazu auch das Handout: *Import von Starterprojekten*

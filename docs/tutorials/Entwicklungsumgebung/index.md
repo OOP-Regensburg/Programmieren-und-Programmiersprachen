@@ -1,3 +1,8 @@
+---
+author:	Alexander Bazo
+date: 14. Oktober 2019
+---
+
 # IntelliJ: Die Entwicklungsumgebung im CIP-Pool und zuhause
 
 *IntelliJ IDEA* ist eine kostenlose Entwicklungsumgebung der Firma JetBrains, die das Erstellen von Programmen in der Programmiersprache JAVA unterstützt. IntelliJ wird in der Industrie als Entwicklungsumgebung für die Programmiersprache Java genutzt. Auch die offizielle Entwicklungsplattform für Google Android, Android Studio, basiert auf dieser Software. Wie man IntelliJ auf den Rechnern der Universität ausführt und zuhause installiert, soll Ihnen dieses kleine Tutorial zeigen. IntelliJ ist eine integrierte Entwicklungsumgebung (integrated development environment, IDE), die verschiedene Funktionen, die in der Softwareentwicklung benötigt werden, in einer einheitlichen Arbeitsumgebung anbietet (Quellcode-Editor, Compiler, Dokumentation, Debugger etc.).

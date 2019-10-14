@@ -1,3 +1,8 @@
+---
+author:	Alexander Bazo
+date: 14. Oktober 2019
+---
+
 # Importieren und Exportieren von Starterprojekten  
 
 Nachdem Sie IntelliJ installiert haben, und bevor Sie mit Bouncer und Java starten können, müssen Sie Starterprojekte in IntelliJ importieren. Diese enthalten alle notwendigen Dateien und Sie können sofort mit der Arbeit an den Übungsaufgaben und Studienleistungen beginnen. Die Starterprojekte finden Sie alle auf GRIPS. Auch die dort bereitgestellten Beispiele können Sie auf die gleiche Art und Weise importieren. Fertiggestelle Projekte können als ZIP-Archiv gepackt und weitergegeben werden. Studienleistungen müssen auf diese Weise in GRIPS hochgeladen werden.

@@ -1,6 +1,6 @@
 ---
 author:	Alexander Bazo
-date: 13. September 2019
+date: 14. Oktober 2019
 hide_toc: true
 ---
 
@@ -10,14 +10,14 @@ Die verpflichtende Studienleistung setzt sich aus insgesamt drei Programmieraufg
 
 ## Ablauf
 
-Informationen zum Ablauf
+Für jede der Aufgaben erhalten Sie von uns ein umfangreiches Handout und ein Code-Grundgerüst (in Form eines IntelliJ-Projekts). Die Materialien finden Sie während der Bearbeitungszeit im GRIPS-Kurs. Für jede Aufgabe wird eine unbedingt einzuhaltende Abgabefrist kommuniziert. Bis zu dieser Frist haben Sie die Möglichkeit Ihre Lösung über den GRIPS-Kurs einzureichen. [Exportieren Sie Ihre Lösung](../../tutorials/Starterprojekte) dazu aus IntelliJ heraus und laden Sie die so erstellte *Zip*-Datei über den vorbereiteten Link im GRIPS-Kurs hoch. Sie können mehrere Versionen einreichen, bewertet wird stets die zu letzt eingereichte Version. Nutzen Sie diese Möglichkeit, um möglichst früh eine erste Version ihrer Lösung bereitzustellen und diese dann schrittweise zu verbessern. Verschieben Sie das Einreichen der Lösung nicht auf die letzten Minuten vor Fristende! 
 
 ## Wintersemester 2019/20
 
 Im Wintersemester 2019/20 müssen Sie die folgenden Aufgaben bearbeiten:
 
-1. **Grundlagen** (Bearbeitungszeitraum vom ?? bis ??): tba
+1. **Grundlagen** (Bearbeitungszeitraum 14-tägig im November)
 
-2. **Entwicklungsprojekt 1** (Bearbeitungszeitraum vom ?? bis ??): tba
+2. **Entwicklungsprojekt 1** (Bearbeitungszeitraum 14-tägig im Dezember)
 
-3. **Entwicklungsprojekt 2** (Bearbeitungszeitraum vom ?? bis ??): tba
+3. **Entwicklungsprojekt 2** (Bearbeitungszeitraum  14-tägig im Januar)

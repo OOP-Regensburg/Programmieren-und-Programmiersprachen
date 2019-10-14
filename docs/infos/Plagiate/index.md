@@ -1,6 +1,7 @@
 ---
 author:	Alexander Bazo
-date: 13. September 2019
+date: 14. Oktober 2019
+hide_toc: true
 ---
 
 # Der Umgang mit Plagiaten am Lehrstuhl für Medieninformatik

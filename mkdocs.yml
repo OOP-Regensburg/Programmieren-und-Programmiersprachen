@@ -30,34 +30,34 @@ nav:
   - Themen: 
     - Übersicht: class/00-Uebersicht
     - Einführung in die Programmierung: class/01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen
-    - Ein- und Ausgabe in einfachen Programmen: class/02-Ein--und-Ausgabe-in-einfachen-Programmen
-    - Verwendung von Klassen und Methoden: class/03-Klassen-und-Methoden
-    - Einfache Kontrollstrukturen und der Einsatz von Variablen: class/04-Variablen-Ausdruecke-und-Kontrollstrukturen
-    - Strukturiertes Speichern von Daten in Arrays und komplexe Schleife: class/05-Arrays-und-komplexe-Schleifen
-    - Grundlagen der Klassenmodellierung: class/06-Klassenmodellierung-1-Grundlagen
-    - Vererbung und Sichtbarkeit von Methoden und Eigenschaften: class/07-Klassenmodellierung-2-Sichtbarkeit-und-Vererbung
-    - Grundlagen der Event-basierten Programmierung: class/08-Interfaces-und-Event-basierte-Programmierung
-    - Einfache String- und Textverarbeitung: class/09-Strings-und-Textverarbeitung
-    - Planhaftes Vorgehen bei der Softwareentwicklung: class/10-Planhaftes-Vorgehen-bei-der-Softwareentwicklung
-    - Komplexe Datenstrukturen. Listen, Maps und die Collections: class/11-Komplexe-Datenstrukturen
-    - Qualitätsaspekte von Quellcode: class/12-Codequalitaet-und-Debugging
-    - Speicherverwaltung auf Heap- und Stack: class/13-Speicher-und-Exceptions
-    - Externes Bereitstellen und Speichern von Inhalten in Dateien: class/14-Persistente-Daten
-    - Zusammenfassung und Ausblick: class/15-Zusammenfassung-und-Ausblick
+    #- Ein- und Ausgabe in einfachen Programmen: class/02-Ein--und-Ausgabe-in-einfachen-Programmen
+    #- Verwendung von Klassen und Methoden: class/03-Klassen-und-Methoden
+    #- Einfache Kontrollstrukturen und der Einsatz von Variablen: class/04-Variablen-Ausdruecke-und-Kontrollstrukturen
+    #- Strukturiertes Speichern von Daten in Arrays und komplexe Schleife: class/05-Arrays-und-komplexe-Schleifen
+    #- Grundlagen der Klassenmodellierung: class/06-Klassenmodellierung-1-Grundlagen
+    #- Vererbung und Sichtbarkeit von Methoden und Eigenschaften: class/07-Klassenmodellierung-2-Sichtbarkeit-und-Vererbung
+    #- Grundlagen der Event-basierten Programmierung: class/08-Interfaces-und-Event-basierte-Programmierung
+    #- Einfache String- und Textverarbeitung: class/09-Strings-und-Textverarbeitung
+    #- Planhaftes Vorgehen bei der Softwareentwicklung: class/10-Planhaftes-Vorgehen-bei-der-Softwareentwicklung
+    #- Komplexe Datenstrukturen. Listen, Maps und die Collections: class/11-Komplexe-Datenstrukturen
+    #- Qualitätsaspekte von Quellcode: class/12-Codequalitaet-und-Debugging
+    #- Speicherverwaltung auf Heap- und Stack: class/13-Speicher-und-Exceptions
+    #- Externes Bereitstellen und Speichern von Inhalten in Dateien: class/14-Persistente-Daten
+    #- Zusammenfassung und Ausblick: class/15-Zusammenfassung-und-Ausblick
   - Übungsblätter: 
     - Übersicht: tasks
     - U01: tasks/U01
-    - U02: tasks/U02
-    - U03: tasks/U03
-    - U04: tasks/U04
-    - U05: tasks/U07
-    - U06: tasks/U06
-    - U07: tasks/U07
-    - U08: tasks/U08
-    - U09: tasks/U09
-    - U10: tasks/U10
-    - U11: tasks/U11
-    - U12: tasks/U12
+    #- U02: tasks/U02
+    #- U03: tasks/U03
+    #- U04: tasks/U04
+    #- U05: tasks/U07
+    #- U06: tasks/U06
+    #- U07: tasks/U07
+    #- U08: tasks/U08
+    #- U09: tasks/U09
+    #- U10: tasks/U10
+    #- U11: tasks/U11
+    #- U12: tasks/U12
   - Tutorials:
     - Bouncer: tutorials/Bouncer
     - Die Entwicklungsumgebung: tutorials/Entwicklungsumgebung

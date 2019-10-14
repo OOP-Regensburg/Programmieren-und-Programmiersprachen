@@ -1,14 +1,14 @@
 ---
-author:	Alexander Bazo
-date: 11. September 2019
+author:	Florin Schwappach, Alexander Bazo
+date: 14. Oktober 2019
 ---
 
 # Übungsblatt 1
 
 ## Wichtige Informationen zur Bearbeitung der Aufgabe 
- - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
- - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
- - [Bouncer](https://regensburger-forscher.de/oop/tutorials/Bouncer/)
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](../../tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](../../tutorials/Starterprojekte)
+ - [Bouncer](../../tutorials/Bouncer/)
 
 ## Starterpaket
 

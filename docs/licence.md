@@ -1,4 +1,6 @@
 ---
+author:	Alexander Bazo
+date: 14. Oktober 2019
 hide_toc: true
 ---
 
