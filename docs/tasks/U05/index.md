@@ -3,12 +3,9 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
-
-## Übung zur Einführung in die objektorientierte Programmierung mit Java
-
 # Übungsblatt 5
 
-### **Farbige Zufallskreise [gemeinsam bearbeiten]**
+### **Farbige Zufallskreise**
 
 Entwickeln Sie eine `GraphicsApp`, die 100 farbige Kreise auf der
 Zeichenfläche darstellt. Jeder der Kreise hat eine zufällige Farbe,
@@ -31,7 +28,7 @@ bevor Sie den Konstruktor der Klasse Ellipse aufrufen:
 
 Verwenden Sie (wie immer) geeignete Konstanten, um unveränderliche Werte abzuspeichern.
 
-### **Random Bouncing Balls [gemeinsam bearbeiten]**
+### **Random Bouncing Balls**
 
 In diesem Programm bewegen sich zwei Bälle über die Zeichenfläche und
 prallen von den Wänden ab. Jeder Ball erhält zu Beginn eine zufällige
@@ -97,55 +94,3 @@ neu gezeichnet und die beiden Bälle aktualisiert und neu gezeichnet.
 Rufen Sie dafür die Methoden zur Kollisionsabfrage, zum *updaten* und
 zum Zeichnen in einer sinnvollen Reihenfolge für beide Objekte auf.
 
-### **Java Wars [vorbereiten]**
-
-Arbeiten Sie dieses Programm ohne Computer durch und geben Sie an,
-welche Ausgaben das Programm erzeugt.
-
-``` {.java}
-import acm.program.*;       // For ConsoleProgram
-import de.ur.mi.graphics.*; // For Point and Ellipse
-
-public class JavaWars extends ConsoleProgram {
-
-    public void run() {
-        String hanSolo = "I've got...";
-        Point alderaan = new Point(2.718, 3.141);
-        int r2d2 = 137;
-        
-        Ellipse emperor = new Ellipse(45, 70, 10, 20, Color.BLACK);
-        lukeSkywalker(emperor, alderaan);
-        println("emperor.getX() = " + emperor.getX());
-        println("alderaan.getX() = " + alderaan.getX());
-        darthVader(emperor, r2d2);
-        println("emperor.getY() = " + emperor.getY());
-        println("r2d2 = " + r2d2);
-        alderaan = landoCalrissian(alderaan, hanSolo);
-        println("hanSolo = " + hanSolo);
-        println("alderaan.getX() = " + alderaan.getX());
-    }
-
-    private void lukeSkywalker(Ellipse chewbacca, Point toto) {
-        chewbacca.setPosition(40, 66);
-        toto = new Point(1.61, 98.6);
-    }
-
-    private Ellipse darthVader(Ellipse emperor, int r2d2) {
-        emperor = new Ellipse(90, 100, 10, 20, Color.BLACK);
-        r2d2 = 14;
-        return emperor;
-    }
-
-    private Point landoCalrissian(Point alderaan, String hanSolo) {
-        hanSolo = hanSolo + "... a very bad feeling about this.";
-        alderaan = new Point(99.9, 44.4);
-        return alderaan;
-    }
-}
-```
-
-----
-
-**Hinweis:** Übungsaufgaben und Konzept basieren zum Teil auf dem Kurs
-*CS106A: Programming Methodology* der Universität Stanford von Eric
-Roberts und Mehran Sahami
