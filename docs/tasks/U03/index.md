@@ -9,7 +9,7 @@ date: 11. September 2019
 # Übungsblatt 3
 
 
-### **Große und kleine Zahlen finden [wird gemeinsam bearbeitet]**
+### **Große und kleine Zahlen finden**
 
 In diesem Programm kann der Nutzer eine Reihe von Ganzzahlen eingeben.
 Das Programm bestimmt die größte und kleinste Zahl und gibt diese am
@@ -26,7 +26,7 @@ Ihr Programm muss für die folgenden Sonderfälle funktionieren:
     Programm keine Werte und muss den Nutzer mit einer entsprechenden
     Meldung darauf hinweisen.
 
-**Zielscheibe [wird gemeinsam bearbeitet]**
+**Zielscheibe**
 
 In dieser Aufgabe sollen Sie eine Zielscheibe auf dem Bildschirm
 zeichnen:
@@ -48,7 +48,7 @@ an, um Ihren Code robuster gegen Veränderungen zu machen.
 dem äußersten Ring anfangen, um zu vermeiden, dass die kleineren Ringe
 verdeckt werden.
 
-### **Pythagoras [vorbereiten]**
+### **Pythagoras**
 
 Der Satz des Pythagoras besagt, dass sich die Seitenlängen eines
 rechtwinkligen Dreiecks wie folgt verhalten: `a^2 + b^2 = c^2`
@@ -69,7 +69,7 @@ berechnet und das Ergebnis wieder an den Nutzer ausgegeben:
 
 ![image](img/03_pythagoras)
 
-### **Hailstone Puzzle [vorbereiten]**
+### **Hailstone Puzzle**
 
 Douglas Hofstadters mit dem Pulitzer-Preis prämiertes Buch *Gödel,
 Escher, Bach* beinhaltet viele interessante mathematische Rätsel, von
@@ -119,7 +119,7 @@ sollte eine Ausgabe wie im folgenden Beispiel erzeugen können:
 
 ![image](img/03_hailstone)
 
-### **Fibonacci [optional]**
+### **Fibonacci**
 
 Im dreizehnten Jahrhundert formulierte der italienische Mathematiker
 Leonardo Fibonacci eine Zahlensequenz, um die Ausbreitung einer
@@ -147,7 +147,7 @@ Legen Sie `MAX_VALUE` als Konstante ab.
 
 ![image](img/03_fibonacci)
 
-### **Schachbrett [optional]**
+### **Schachbrett**
 
 Zeichnen Sie ein Schachbrettmuster mit Hilfe der *GraphicsApp*. Nutzen
 Sie die bekannten Funktionalitäten der *GraphicsApp* um ein
@@ -164,7 +164,7 @@ anderen zeichnen Sie das Schachbrettmuster.
 
 ![image](img/03_chess)
 
-### **Copy & Paste [optional]**
+### **Copy & Paste**
 
 Bouncers Aufgabe ist es, die linke Hälfte der Karte spiegelverkehrt auf
 der rechten Seite nachzuzeichnen. Um dies zu erreichen, soll er jede
@@ -195,9 +195,3 @@ Bei der Bearbeitung sollten Sie über folgende Teilprobleme nachdenken:
     aktuellen Zeile zurückkehren kann.
 
 ![image](img/03_copyAndPaste)
-
-----
-
-**Hinweis:** Übungsaufgaben und Konzept basieren zum Teil auf dem Kurs
-*CS106A: Programming Methodology* der Universität Stanford von Eric
-Roberts und Mehran Sahami.
