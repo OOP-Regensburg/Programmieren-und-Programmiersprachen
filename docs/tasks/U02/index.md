@@ -126,3 +126,21 @@ Nutzen Sie die Übungsmöglichkeiten und kopieren keinen Code, sondern
 tippen jedes Zeichen selbst. Achten Sie außerdem auf korrekte Einrückung
 Ihres Quellcodes und füge Sie Ihrer Klasse und den Methoden passende
 Kommentare hinzu.
+
+
+### **Große und kleine Zahlen finden**
+
+In diesem Programm kann der Nutzer eine Reihe von Ganzzahlen eingeben.
+Das Programm bestimmt die größte und kleinste Zahl und gibt diese am
+Bildschirm aus, nachdem der Nutzer die Zahl 0 eingegeben hat:
+
+![image](img/03_findrange)
+
+Ihr Programm muss für die folgenden Sonderfälle funktionieren:
+
+-   Wenn der Nutzer nur **eine** Zahl vor der 0 eingibt, soll das
+    Programm diese Zahl als größte und kleinste Zahl ausgeben.
+
+-   Wenn der Nutzer **als erste** Zahl eine 0 eintippt, erhält das
+    Programm keine Werte und muss den Nutzer mit einer entsprechenden
+    Meldung darauf hinweisen.
