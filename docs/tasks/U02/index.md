@@ -139,7 +139,7 @@ In diesem Programm kann der Nutzer eine Reihe von Ganzzahlen eingeben.
 Das Programm bestimmt die größte und kleinste Zahl und gibt diese am
 Bildschirm aus, nachdem der Nutzer die Zahl 0 eingegeben hat:
 
-![image](img/03_findrange)
+![image](img/findrange)
 
 Ihr Programm muss für die folgenden Sonderfälle funktionieren:
 
@@ -169,4 +169,4 @@ Schreiben Sie ein Programm, bei dem der Nutzer die Werte für `a` und `b`
 als Ganzzahlen eingeben kann. Anschließend wird daraus `c` als `double`
 berechnet und das Ergebnis wieder an den Nutzer ausgegeben:
 
-![image](img/03_pythagoras)
+![image](img/pythagoras)
