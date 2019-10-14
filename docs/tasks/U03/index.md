@@ -48,7 +48,7 @@ Abbildung dargestellt.
 In dieser Aufgabe sollen Sie eine Zielscheibe auf dem Bildschirm
 zeichnen:
 
-![](img/03_target)
+![](img/03_target.png)
 
 Die Zielscheibe muss aus 15 Ellipse-Objekten bestehen und im Zentrum des
 Bildschirms gezeichnet werden. Der mittlere Ring ist rot und hat einen
