@@ -6,6 +6,7 @@ date: 11. September 2019
 # Übungsblatt 2
 
 ## Wichtige Informationen zur Bearbeitung der Aufgabe 
+
  - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
  - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
  - [Bouncer](https://regensburger-forscher.de/oop/tutorials/Bouncer/)
@@ -13,6 +14,7 @@ date: 11. September 2019
 ## Starterpakete
 
 Vorbereitete Starterpakete zur selbständigen Implementierung der Aufgaben finden Sie hier:
+
  - [Bouncer-Startpaket](https://github.com/OOP-Regensburg/Bouncer-Exercise-02/archive/Starterpaket.zip)
  - [Konsolen-Startpaket](https://github.com/OOP-Regensburg/Console-Exercise-02/archive/Starterpaket.zip)
 
