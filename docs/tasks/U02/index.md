@@ -3,19 +3,25 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
-
-## Übung zur Einführung in die objektorientierte Programmierung mit Java
-
 # Übungsblatt 2
 
-Bevor Sie mit den Übungsaufgaben beginnen können, müssen Sie zuerst das enstprechende Starterpaket (`OOP_18WS_U02_VonBouncerZurGraphicsApp_Starter.zip`) importieren.
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+ - [Bouncer](https://regensburger-forscher.de/oop/tutorials/Bouncer/)
 
-### **Bouncer auf Schatzsuche**
+## Starterpakete
+
+Vorbereitete Starterpakete zur selbständigen Implementierung der Aufgaben finden Sie hier:
+ - [Bouncer-Startpaket](https://github.com/OOP-Regensburg/Bouncer-Exercise-02/archive/Starterpaket.zip)
+ - [Konsolen-Startpaket](https://github.com/OOP-Regensburg/Console-Exercise-02/archive/Starterpaket.zip)
+
+## **Bouncer auf Schatzsuche**
 
 ![Der See vor und nachdem Bouncer nach den Schätzen getaucht
-ist.](img/pool_start.png "fig:") ![Der See vor und nachdem
+ist.](img/pool_start.png) ![Der See vor und nachdem
 Bouncer nach den Schätzen getaucht
-ist.](img/pool_finished.png "fig:")
+ist.](img/pool_finished.png)
 
 Bouncer steht in dieser Aufgabe vor einem See, in dem eine Reihe von
 versunkenen Schätze auf dem Grund liegen (*rote Felder*). Bouncers
@@ -56,7 +62,7 @@ Aufgabe des Suchens auf dem Seegrund. Nach dem erfolgreichen Bergen muss
 Bouncer die Suche nach den anderen Schätzen an der richtigen Stelle
 fortsetzen.
 
-### **Bouncer repariert eine Mauer [optional]**
+## **Bouncer repariert eine Mauer**
 
 In dieser Aufgabe soll Bouncer eine Mauer reparieren. Höhe der Mauer und
 Anzahl der beschädigten Felder sind dabei unbekannt. Bouncer weiß nur,
@@ -86,10 +92,10 @@ eine optionale Aufgabe, an der Sie *tüfteln* können.
 
 ![Die beschädigte Mauer zu Begin des Programms und nachdem Bouncer sie
 repariert hat. Am linken Rand ist der Stapel mit den Ersatzteilen zu
-sehen.](img/wall_start.png "fig:") ![Die beschädigte Mauer
+sehen.](img/wall_start.png) ![Die beschädigte Mauer
 zu Begin des Programms und nachdem Bouncer sie repariert hat. Am linken
 Rand ist der Stapel mit den Ersatzteilen zu
-sehen.](img/wall_finished.png "fig:")
+sehen.](img/wall_finished.png)
 
 Als Hilfestellung können Sie von folgenden Teilproblemen ausgehen, die
 im Rahmen des Programms gelöst werden müssen.
@@ -113,7 +119,7 @@ im Rahmen des Programms gelöst werden müssen.
     kann. Versuchen Sie den jeweils korrekten Weg zwischen Mauerzeile
     und Stapel mit dieser Methodik zu kennzeichnen.
 
-### **Hello Console [vorbereiten]**
+## **Hello Console**
 
 Dieses Beispiel ist ein sehr einfaches Programm, das lediglich zeigen
 soll, wie Sie eigene Programme zur Ausgabe von Text erstellen können.
@@ -127,8 +133,7 @@ tippen jedes Zeichen selbst. Achten Sie außerdem auf korrekte Einrückung
 Ihres Quellcodes und füge Sie Ihrer Klasse und den Methoden passende
 Kommentare hinzu.
 
-
-### **Große und kleine Zahlen finden**
+## **Große und kleine Zahlen finden**
 
 In diesem Programm kann der Nutzer eine Reihe von Ganzzahlen eingeben.
 Das Programm bestimmt die größte und kleinste Zahl und gibt diese am
@@ -145,7 +150,7 @@ Ihr Programm muss für die folgenden Sonderfälle funktionieren:
     Programm keine Werte und muss den Nutzer mit einer entsprechenden
     Meldung darauf hinweisen.
 
-### **Pythagoras**
+## **Pythagoras**
 
 Der Satz des Pythagoras besagt, dass sich die Seitenlängen eines
 rechtwinkligen Dreiecks wie folgt verhalten: `a^2 + b^2 = c^2`
