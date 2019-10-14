@@ -5,7 +5,19 @@ date: 11. September 2019
 
 # Übungsblatt 6
 
-### **Eine Bibliotheks-App**
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+
+## Starterpakete
+
+Vorbereitete Starterpakete zur selbständigen Implementierung der Aufgaben finden Sie hier:
+
+ - [Konsolen-Startpaket](https://github.com/OOP-Regensburg/Console-Exercise-06/archive/Starterpaket.zip)
+ - [GraphicsApp-Startpaket](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-06/archive/Starterpaket.zip)
+
+## **Eine Bibliotheks-App**
 
 Entwerfen Sie in dieser Aufgabe eine Klassenstruktur, die die Verwaltung
 von Medien in einem Bibliothekskatalog abbildet. Der Katalog soll Bücher
@@ -13,7 +25,7 @@ und DVDs enthalten können; Ihre Anwendung nutzt die
 implementierten Klassen um Medien durch den Benutzer einlesen zu
 lassen.
 
-![image](img/screenshot_library.png)
+![](img/screenshot_library.png)
 
 Im ersten Teil der Anwendung werden die nötigen Klassen für die
 Mediensammlung entworfen:
@@ -72,7 +84,7 @@ folgende Aufgaben erfüllen:
     `toString`-Methode auf. Die Rückgabe der Methode wird auf der
     Konsole ausgegeben.
 
-### **Neue Shapes für die GraphicsApp**
+## **Neue Shapes für die GraphicsApp**
 
 Erweitern Sie die Funktionalität der `GraphicsApp` um zwei neue Formen:
 Ein gleichschenkliges Dreieck (`Triangle`) sowie ein
@@ -97,4 +109,4 @@ dass die verschiedenen Methoden des `GraphicsObject` die x- und
 y-Koordinaten beeinflussen und Sie die Eckpunkte Ihrer Form regelmäßig
 (z.B. vor jedem Zeichnen) neu berechnen müssen.
 
-![image](img/screenshot_shapes.png)
+![](img/screenshot_shapes.png)
