@@ -3,14 +3,22 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
-
 # Übungsblatt 4
+
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+ - [Bouncer](https://regensburger-forscher.de/oop/tutorials/Bouncer/)
+
+## Starterpaket
+
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-04/archive/Starterpaket.zip).
 
 ## **Refactoring durch Methoden**
 
 **Klasse im Starterpaket:** `Target`
 
-![image](img/04_target.png)
+![](img/04_target.png)
 
 Im Starterprojekt für dieses Übungsblatt finden Sie eine Musterlösung
 für das Target-Programm aus der letzten Übung. Bauen Sie den Code so um,
@@ -31,10 +39,11 @@ korrekt läuft.
 ## **Ball mit Physik**
 
 **Klasse im Starterpaket:** `BouncingBall`
+
 Erstellen Sie eine `GraphicsApp`, die einen Ball von links nach rechts
 über die Zeichenfläche springen lässt:
 
-![image](img/04_bouncingball.png)
+![](img/04_bouncingball.png)
 
 Der Ball startet in der linken oberen Ecke, fällt dann zu Boden und
 prallt wieder ab, solange er nicht den Bildschirm verlassen hat.
@@ -68,6 +77,4 @@ hieven. Dies können Sie mit dem folgenden Code erreichen:
 `double diff = ball.getY() - (getHeight() - ball.getHeight());`\
 `ball.move(0, -2 * diff);`
 
-**Hinweis:** Im Starterpaket finden Sie ein animiertes GIF
-(`screenshots/bouncingBall.gif`), das den Programmablauf exemplarisch
-darstellt.
+![](img/bouncingBall.gif)
