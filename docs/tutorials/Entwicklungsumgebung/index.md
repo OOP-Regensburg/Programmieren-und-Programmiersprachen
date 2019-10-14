@@ -8,7 +8,8 @@ In diesem Kurs verwenden Sie die Version 2019 von IntelliJ. Installieren Sie unb
 
 Auf allen Computern in den CIP-Pools der Universität Regensburg können Sie auf eine aktuelle Version von IntelliJ zugreifen. Nachdem Sie sich am Rechner unter Windows angemeldet haben, können Sie die Entwicklungsumgebung starten, in dem Sie im Startmenü idea eingeben. In der Ergebnisliste der Suche wählen Sie die Datei `idea2019.cmd` aus. Der initiale Start der Anwendung dauert etwas und ist abgeschlossen sobald das Fenster *Welcome to IntelliJ IDEA erscheint*.
 
-![Starten von IntelliJ IDEA im CIP-Pool](img/start-cip.png)
+![IDEA](img/idea.jpeg)
+![IntelliJ StartScreen](img/intellij-startscreen.jpeg)
 
 Sollte beim Start der Entwicklungsumgebung ein Dialog der Windows-Firewall erscheinen, können Sie diesen über Abbrechen schließen.
 
