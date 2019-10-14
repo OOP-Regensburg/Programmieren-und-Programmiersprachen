@@ -167,5 +167,5 @@ Schreiben Sie ein Programm, bei dem der Nutzer die Werte für `a` und `b`
 als Ganzzahlen eingeben kann. Anschließend wird daraus `c` als `double`
 berechnet und das Ergebnis wieder an den Nutzer ausgegeben:
 
-![](img/pythagoras)
+![](img/pythagoras.png)
 <div class="img-label">Ein Beispiel eines Programmablaufs und der zugehörigen Ausgabe.</div>
