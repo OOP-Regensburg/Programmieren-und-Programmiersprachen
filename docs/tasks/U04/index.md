@@ -6,10 +6,10 @@ date: 11. September 2019
 # Übungsblatt 4
 
 ## Wichtige Informationen zur Bearbeitung der Aufgabe 
+
  - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
  - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
- - [Bouncer](https://regensburger-forscher.de/oop/tutorials/Bouncer/)
-
+ 
 ## Starterpaket
 
 Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-04/archive/Starterpaket.zip).
