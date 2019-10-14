@@ -3,16 +3,13 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
-
-## Übung zur Einführung in die objektorientierte Programmierung mit Java
-
 # Übungsblatt 6
 
-### **Eine Bibliotheks-App [gemeinsam bearbeiten]**
+### **Eine Bibliotheks-App**
 
 Entwerfen Sie in dieser Aufgabe eine Klassenstruktur, die die Verwaltung
 von Medien in einem Bibliothekskatalog abbildet. Der Katalog soll Bücher
-und DVDs enthalten können; eine zusätzliche `ConsoleApp` nutzt die
+und DVDs enthalten können; Ihre Anwendung nutzt die
 implementierten Klassen um Medien durch den Benutzer einlesen zu
 lassen.
 
@@ -75,7 +72,7 @@ folgende Aufgaben erfüllen:
     `toString`-Methode auf. Die Rückgabe der Methode wird auf der
     Konsole ausgegeben.
 
-### **Neue Shapes für die GraphicsApp [gemeinsam bearbeiten]**
+### **Neue Shapes für die GraphicsApp**
 
 Erweitern Sie die Funktionalität der `GraphicsApp` um zwei neue Formen:
 Ein gleichschenkliges Dreieck (`Triangle`) sowie ein
