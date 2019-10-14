@@ -12,6 +12,13 @@ Im ersten inhaltlichen Teil wird eine erste Arbeitsdefinition des Begriffs *Prog
 
 Im Rahmen der ersten Zentralübung wird die Einrichtung und Verwendung der im Kurs eingesetzten Arbeitsumgebung erläutert. Anschließen erfolgt die kommentierte Entwicklung erster Programme für die *Bouncer*-Umgebung.
 
+- Hinweise zur Installation und Einrichtung der Arbeitsumgebung finden Sie [hier](../../tutorials/Entwicklungsumgebung)
+- Hinweise zum Öffnen der Programmbeispiele finden Sie [hier](../../tutorials/Starterprojekte)
+- Hinweise zum Programmieren von Bouncer finden Sie [hier](../../tutorials/Bouncer)
+- Das Starterpaket zu den besprochen Aufgaben können Sie [hier](https://github.com/OOP-Regensburg/Tutorial-Examples-01/archive/starter.zip) herunterladen
+- Die Lösung zu den besprochen Aufgaben können Sie [hier](https://github.com/OOP-Regensburg/Tutorial-Examples-01/archive/master.zip) herunterladen
+
+
 ## Übung
 
 Zu Beginn der Übung wird die Arbeitsumgebung in den CIP-Pools vorgestellt und Sie lernen, die vorbereiteten Starterpakete und Beispiele mit Hilfe der installierten Entwicklungsumgebung zu starten, zu editieren und auszuführen. Anschließend lösen Sie einfache Probleme mit der *Bouncer*-Umgebung. Dazu gehört die Navigation innerhalb der Karte, die Reaktion auf unterschiedliche Feldzustände und der Entwurf erste, einfacher Algorithmen. 
