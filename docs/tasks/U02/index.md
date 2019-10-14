@@ -18,10 +18,9 @@ Vorbereitete Starterpakete zur selbständigen Implementierung der Aufgaben finde
 
 ## **Bouncer auf Schatzsuche**
 
-![Der See vor und nachdem Bouncer nach den Schätzen getaucht
-ist.](img/pool_start.png) ![Der See vor und nachdem
-Bouncer nach den Schätzen getaucht
-ist.](img/pool_finished.png)
+![](img/pool_start.png) 
+![](img/pool_finished.png)
+<div class="img-label">Der See vor und nachdem Bouncer nach den Schätzen getaucht ist.</div>
 
 Bouncer steht in dieser Aufgabe vor einem See, in dem eine Reihe von
 versunkenen Schätze auf dem Grund liegen (*rote Felder*). Bouncers
@@ -90,12 +89,9 @@ handelt. Möglicherweise können Sie den nötigen Algorithmus auf Basis
 Ihres aktuellen Wissens nicht aufstellen. Es handelt sich explizit um
 eine optionale Aufgabe, an der Sie *tüfteln* können.
 
-![Die beschädigte Mauer zu Begin des Programms und nachdem Bouncer sie
-repariert hat. Am linken Rand ist der Stapel mit den Ersatzteilen zu
-sehen.](img/wall_start.png) ![Die beschädigte Mauer
-zu Begin des Programms und nachdem Bouncer sie repariert hat. Am linken
-Rand ist der Stapel mit den Ersatzteilen zu
-sehen.](img/wall_finished.png)
+![](img/wall_start.png) 
+![](img/wall_finished.png)
+<div class="img-label">Die beschädigte Mauer zu Begin des Programms und nachdem Bouncer sie repariert hat. Am linken Rand ist der Stapel mit den Ersatzteilen zu sehen.</div>
 
 Als Hilfestellung können Sie von folgenden Teilproblemen ausgehen, die
 im Rahmen des Programms gelöst werden müssen.
@@ -126,7 +122,8 @@ soll, wie Sie eigene Programme zur Ausgabe von Text erstellen können.
 Schreiben Sie ein ConsoleProgram, das wie in der Vorlesung eine
 Mitteilung an den Nutzer ausgibt:
 
-![image](img/console_finished.png)
+![](img/console_finished.png)
+<div class="img-label">Die gewünschte Ausgabe des Programms.</div>
 
 Nutzen Sie die Übungsmöglichkeiten und kopieren keinen Code, sondern
 tippen jedes Zeichen selbst. Achten Sie außerdem auf korrekte Einrückung
@@ -139,7 +136,8 @@ In diesem Programm kann der Nutzer eine Reihe von Ganzzahlen eingeben.
 Das Programm bestimmt die größte und kleinste Zahl und gibt diese am
 Bildschirm aus, nachdem der Nutzer die Zahl 0 eingegeben hat:
 
-![image](img/findrange)
+![](img/findrange.png)
+<div class="img-label">Ein Beispiel eines Programmablaufs und der zugehörigen Ausgabe.</div>
 
 Ihr Programm muss für die folgenden Sonderfälle funktionieren:
 
@@ -169,4 +167,5 @@ Schreiben Sie ein Programm, bei dem der Nutzer die Werte für `a` und `b`
 als Ganzzahlen eingeben kann. Anschließend wird daraus `c` als `double`
 berechnet und das Ergebnis wieder an den Nutzer ausgegeben:
 
-![image](img/pythagoras)
+![](img/pythagoras)
+<div class="img-label">Ein Beispiel eines Programmablaufs und der zugehörigen Ausgabe.</div>
