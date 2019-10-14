@@ -5,7 +5,16 @@ date: 11. September 2019
 
 # Übungsblatt 5
 
-### **Farbige Zufallskreise**
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+
+## Starterpaket
+
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-05/archive/Starterpaket.zip).
+
+## **Farbige Zufallskreise**
 
 Entwickeln Sie eine `GraphicsApp`, die 100 farbige Kreise auf der
 Zeichenfläche darstellt. Jeder der Kreise hat eine zufällige Farbe,
@@ -28,7 +37,7 @@ bevor Sie den Konstruktor der Klasse Ellipse aufrufen:
 
 Verwenden Sie (wie immer) geeignete Konstanten, um unveränderliche Werte abzuspeichern.
 
-### **Random Bouncing Balls**
+## **Random Bouncing Balls**
 
 In diesem Programm bewegen sich zwei Bälle über die Zeichenfläche und
 prallen von den Wänden ab. Jeder Ball erhält zu Beginn eine zufällige
