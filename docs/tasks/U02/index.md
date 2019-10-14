@@ -144,3 +144,24 @@ Ihr Programm muss für die folgenden Sonderfälle funktionieren:
 -   Wenn der Nutzer **als erste** Zahl eine 0 eintippt, erhält das
     Programm keine Werte und muss den Nutzer mit einer entsprechenden
     Meldung darauf hinweisen.
+
+### **Pythagoras**
+
+Der Satz des Pythagoras besagt, dass sich die Seitenlängen eines
+rechtwinkligen Dreiecks wie folgt verhalten: `a^2 + b^2 = c^2`
+
+Diese Gleichung lässt sich wie folgt umschreiben: `c = sqrt(a^2+b^2)`
+
+Sie haben die meisten Operatoren in dieser Gleichung bereits in der
+Vorlesung kennengelernt. Es fehlt lediglich die Berechung der Wurzel,
+die Sie durch Aufruf der Methode `Math.sqrt()` berechnen können.
+Beispielsweise setzt der folgende Aufruf den Wert der Variablen `y` auf
+den Wert der Wurzel aus `x`.
+
+`double y = Math.sqrt(x);`
+
+Schreiben Sie ein Programm, bei dem der Nutzer die Werte für `a` und `b`
+als Ganzzahlen eingeben kann. Anschließend wird daraus `c` als `double`
+berechnet und das Ergebnis wieder an den Nutzer ausgegeben:
+
+![image](img/03_pythagoras)
