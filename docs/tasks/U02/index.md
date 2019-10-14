@@ -126,39 +126,3 @@ Nutzen Sie die Übungsmöglichkeiten und kopieren keinen Code, sondern
 tippen jedes Zeichen selbst. Achten Sie außerdem auf korrekte Einrückung
 Ihres Quellcodes und füge Sie Ihrer Klasse und den Methoden passende
 Kommentare hinzu.
-
-## **Hello GraphicsApp [vorbereiten]**
-
-In dieser Aufgabe können Sie erste Erfahrungen mit der GraphicsApp
-sammeln. Zeichnen Sie einen überraschten Smiley, wie in der folgenden
-Abbildung dargestellt.
-
-![image](img/face_finished.png)
-
--   Ihr Programm startet in der Methode `public void setup()`.
-
--   Zerlegen Sie das Problem in Teilprobleme und erstellen zuerst die
-    Aufrufe für die Methoden `setupCanvas()` und `drawSmiley()` in der
-    vorhandenen Methode `setup()`.
-
--   Fügen Sie dann die Methoden in der Graphics-App hinzu und setzen
-    dort die Hintergrundfarbe und die Breite und Höhe der Zeichenfläche
-    auf 500 Pixel.
-
--   Der Smiley muss zentriert auf der Zeichenfläche dargestellt werden,
-    unabhängig von der Größe des Zeichenfelds! Verwenden Sie geeignete
-    Konstanten (vgl. Beispielcode aus der Vorlesung), um die Breite und
-    Höhe an einer einzigen Stelle in Ihrem Programm zu definieren. Alle
-    anderen Stellen, an denen diese Werte gebraucht werden müssen sich
-    auf diese zentrale Stelle beziehen!
-
--   Die Größe des Smileys können Sie frei wählen.
-
--   Nutzen Sie zum Zeichnen des Smiley bzw. den einzelnen Teilen des
-    Gesichts Ellipsen mit unterschiedlicher Größe, Farbe und Position.
-
-----
-
-**Hinweis:** Übungsaufgaben und Konzept basieren zum Teil auf dem Kurs
-*CS106A: Programming Methodology* der Universität Stanford von Eric
-Roberts und Mehran Sahami
