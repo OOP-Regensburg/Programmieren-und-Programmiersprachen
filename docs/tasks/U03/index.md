@@ -5,13 +5,21 @@ date: 11. September 2019
 
 # Übungsblatt 3
 
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+
+## Starterpaket
+
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgabe finden Sie [hier](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-03/archive/Starterpaket.zip).
+
 ## **Hello GraphicsApp**
 
 In dieser Aufgabe können Sie erste Erfahrungen mit der GraphicsApp
 sammeln. Zeichnen Sie einen überraschten Smiley, wie in der folgenden
 Abbildung dargestellt.
 
-![image](img/face_finished.png)
+![](img/face_finished.png)
 
 -   Ihr Programm startet in der Methode `public void setup()`.
 
@@ -35,12 +43,12 @@ Abbildung dargestellt.
 -   Nutzen Sie zum Zeichnen des Smiley bzw. den einzelnen Teilen des
     Gesichts Ellipsen mit unterschiedlicher Größe, Farbe und Position.
 
-### **Zielscheibe**
+## **Zielscheibe**
 
 In dieser Aufgabe sollen Sie eine Zielscheibe auf dem Bildschirm
 zeichnen:
 
-![image](img/03_target)
+![](img/03_target)
 
 Die Zielscheibe muss aus 15 Ellipse-Objekten bestehen und im Zentrum des
 Bildschirms gezeichnet werden. Der mittlere Ring ist rot und hat einen
@@ -57,7 +65,7 @@ an, um Ihren Code robuster gegen Veränderungen zu machen.
 dem äußersten Ring anfangen, um zu vermeiden, dass die kleineren Ringe
 verdeckt werden.
 
-### **Pyramide**
+## **Pyramide**
 
 **Klasse im Starterpaket:** `Pyramid`
 
@@ -65,7 +73,7 @@ Ihr Programm soll eine Pyramide zeichnen, die aus einzelnen Ziegeln
 besteht, die in horizontalen Linien angeordnet werden. Die Anzahl der
 einzelnen Blöcke nimmt um einen Block pro Reihe ab:
 
-![image](img/04_pyramid.png)
+![](img/04_pyramid.png)
 
 Die Pyramide soll am unteren Ende der Zeichenfläche stehen und in der
 Mitte zentriert werden. Verwenden Sie mindestens die folgenden
@@ -86,7 +94,7 @@ von oben oder von unten bauen). Zum Schluss müssen die einzelnen
 Ziegelreihen noch zentriert werden, d.h. Sie müssen den passenden
 Startpunkt für jede Reihe berechnen.
 
-### **Expanding Circle**
+## **Expanding Circle**
 
 **Klasse im Starterpaket:** `ExpandingCircle`
 
@@ -101,7 +109,4 @@ der maximale Wert erreicht ist, wird die Ellipse auf die ursprüngliche
 Größe zurückgesetzt. Die Animation
 `[initialer Radius -> maximaler Radius]` soll sich endlos wiederholen.
 
-**Hinweis:** Im Starterpaket finden Sie ein animiertes GIF
-(`screenshots/expandingCircle.gif`), das den Programmablauf exemplarisch darstellt.
-
-![image](img/04_expandingCircle.png)
+![](img/expandingCircle.gif)
