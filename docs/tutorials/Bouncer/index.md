@@ -61,7 +61,11 @@ public class FirstTask extends BouncerApp {
 
 Die einfachste Möglichkeit, eigene Bouncer-Programme zu entwickeln,
 besteht darin, das Starterpaket aus dem GRIPS-Kurs herunterzuladen [und
-in *IntelliJ* zu öffnen](../Starterprojekte). Nach dem Import finden Sie im
+in *IntelliJ* zu öffnen](../Starterprojekte). 
+
+ - [Link zum BouncerDemo-Starterpaket](https://github.com/OOP-Regensburg/Bouncer-Demo/archive/master.zip)
+
+Nach dem Import finden Sie im
 `src/demo`-Ordner des Projekts die Datei `BouncerDemo.java`, die Sie
 bearbeiten können, um Bouncer zu steuern. Ein Java-Programm beinhaltet eine main-Methode, die den Einsprungpunkt in das Programm darstellt. Hier wird über den sogenannten `BouncerLauncher` unser Bouncer-Code ausgeführt. Klicken Sie dazu mit der rechten Maustaste auf den Eintrag im Dateibaum (linke Bildschirmseite) und wählen Sie `Run 'BouncerDemo...main()'` aus.  Alternativ können Sie auch über das Menü `Run` und den dortigen Eintrag `Run` eine Liste der aktuell geöffneten Programme anzeigen lassen, und das gewünschte Bouncer-Programm durch einen Mausklick auf dessen Namen starten.
 
