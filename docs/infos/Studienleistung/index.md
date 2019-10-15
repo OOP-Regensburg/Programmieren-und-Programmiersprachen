@@ -16,8 +16,8 @@ Für jede der Aufgaben erhalten Sie von uns ein umfangreiches Handout und ein Co
 
 Im Wintersemester 2019/20 müssen Sie die folgenden Aufgaben bearbeiten:
 
-1. **Grundlagen** (Bearbeitungszeitraum 14-tägig im November)
+1. **Grundlagen** (Bearbeitungszeitraum **5. bis 17. November**): Einfache Algorithmen mit Bouncer und erste Visualisierungen mit der *Graphics App*
 
-2. **Entwicklungsprojekt 1** (Bearbeitungszeitraum 14-tägig im Dezember)
+2. **Entwicklungsprojekt 1** (Bearbeitungszeitraum **2. bis 15. Dezember**): Erste interaktive Anwendungen mit der *Graphics App**
 
-3. **Entwicklungsprojekt 2** (Bearbeitungszeitraum  14-tägig im Januar)
+3. **Entwicklungsprojekt 2** (Bearbeitungszeitraum  **7. bis 20. Januar**): Komplexere interaktive Anwendungen mit der *Graphics App**
