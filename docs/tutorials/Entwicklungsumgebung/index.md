@@ -20,13 +20,13 @@ Sollte beim Start der Entwicklungsumgebung ein Dialog der Windows-Firewall ersch
 !!! danger "Speichern von Daten auf den CIP-Pool-Rechnern"
 	Auf den CIP-Pool-Rechnern werden keine Dateien über Ihre Arbeitssitzung hinaus gespeichert. Sobald Sie sich abmelden bzw. den Computer herunterfahren, wird dieser in den Ausgangszustand zurück gesetzt. Wenn Sie Daten dauerhaft speichern möchten - z.B. Übungsaufgaben oder Studienleistungen - müssen Sie diese auf Ihrem persönlichen Netzwerklaufwerk (G-Laufwerk) oder einem USB-Datenträger speichern.
 
-## InteliJ zuhause
+## IntelliJ zuhause
 
 Um auf Ihrem eigenen Computer mit IntelliJ zu arbeiten müssen Sie die Entwicklungsumgebung installieren und das Java Development Kit (JDK) installieren.
 
 ### Installation eines aktuellen JDKs
 
-Um Software mit der Programmiersprache Java zu entwickeln, benötigen Sie das Java Development Kit. Dieses Kit besteht aus mehreren Programmen und Klassenbibliotheken und kann für alle gängigen Betriebssysteme bezogen und installiert werden. Für diesen Kurs wird das OpenJDK in der Version 8 verwendet. Die passende Installationsdateie für Ihr Betriebsystem können Sie auf [dieser Website](https://adoptopenjdk.net/) herunterladen.  Nach dem Download folgen Sie den Anweisungen für das jeweilige Betriebssystem. Sollten Sie bereits eine Java-Laufzeitumgebung auf Ihrem Rechner haben, wird die im JDK mitgelieferte Runtime parallel installiert.
+Um Software mit der Programmiersprache Java zu entwickeln, benötigen Sie das Java Development Kit. Dieses Kit besteht aus mehreren Programmen und Klassenbibliotheken und kann für alle gängigen Betriebssysteme bezogen und installiert werden. Für diesen Kurs wird das OpenJDK in der Version 11 verwendet. Die passende Installationsdateien für Ihr Betriebsystem können Sie auf [dieser Website](https://adoptopenjdk.net/) herunterladen.  Nach dem Download folgen Sie den Anweisungen für das jeweilige Betriebssystem. Sollten Sie bereits eine Java-Laufzeitumgebung auf Ihrem Rechner haben, wird die im JDK mitgelieferte Runtime parallel installiert.
 
 ![Meldung der Windows-Firewall beim Starten von IntelliJ](img/firewall-meldung.png){: class=center }
 
