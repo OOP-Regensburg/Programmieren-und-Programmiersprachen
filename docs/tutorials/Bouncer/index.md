@@ -35,8 +35,11 @@ von Roberts basiert Bouncer auf denselben Grundlagen, die Sie im
 späteren Verlauf des Semesters zur Entwicklung eigener Anwendungen
 benutzen werden.
 
+Der folgende Programmcode startet über die Java-main-Methode ein Bouncer-Programm und führt alle Befehle in der bounce()-Methode aus.
+
 ``` java
 import de.ur.mi.bouncer.apps.BouncerApp;
+import de.ur.mi.bouncer.apps.BouncerLauncher;
 
 public class FirstTask extends BouncerApp {
 
@@ -47,17 +50,20 @@ public class FirstTask extends BouncerApp {
             bouncer.move();
         }
      }
+
+	public static void main(String[] args) {
+        BouncerLauncher.launch("FirstTask");
+	}
 }
 ```
 
 ## Bouncer in IntelliJ
 
-
 Die einfachste Möglichkeit, eigene Bouncer-Programme zu entwickeln,
 besteht darin, das Starterpaket aus dem GRIPS-Kurs herunterzuladen [und
 in *IntelliJ* zu öffnen](../Starterprojekte). Nach dem Import finden Sie im
 `src/demo`-Ordner des Projekts die Datei `BouncerDemo.java`, die Sie
-bearbeiten können, um Bouncer zu steuern. Über die zusätzliche Datei `BouncerDemoLauncher.java` kann das in `BouncerDemo.java` verfasste Programm gestartet werden. Klicken Sie dazu mit der rechten Maustaste auf den Eintrag im Dateibaum (linke Bildschirmseite) und wählen Sie `Run 'BouncerDemoLauncher...main()'` aus.  Alternativ können Sie auch über das Menü `Run` und den dortigen Eintrag `Run` eine Liste der aktuell geöffneten Programme anzeigen lassen, und das gewünschte Bouncer-Programm durch einen Mausklick auf dessen Namen starten.
+bearbeiten können, um Bouncer zu steuern. Ein Java-Programm beinhaltet eine main-Methode, die den Einsprungpunkt in das Programm darstellt. Hier wird über den sogenannten `BouncerLauncher` unser Bouncer-Code ausgeführt. Klicken Sie dazu mit der rechten Maustaste auf den Eintrag im Dateibaum (linke Bildschirmseite) und wählen Sie `Run 'BouncerDemo...main()'` aus.  Alternativ können Sie auch über das Menü `Run` und den dortigen Eintrag `Run` eine Liste der aktuell geöffneten Programme anzeigen lassen, und das gewünschte Bouncer-Programm durch einen Mausklick auf dessen Namen starten.
 
 Im Ordner `data/assets` finden Sie eine Auswahl vorgefertigter
 Karten. In ihrem Programm können Sie diese Karten innerhalb der
