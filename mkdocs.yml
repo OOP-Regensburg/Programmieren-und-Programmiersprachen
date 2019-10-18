@@ -30,7 +30,7 @@ nav:
   - Themen: 
     - Übersicht: class/00-Uebersicht
     - Einführung in die Programmierung: class/01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen
-    - Ein- und Ausgabe in einfachen Programmen: class/02-Ein--und-Ausgabe-in-einfachen-Programmen
+    - Einfache Programme entwickeln: class/02-Einfache-Programme-entwickeln
     #- Verwendung von Klassen und Methoden: class/03-Klassen-und-Methoden
     #- Einfache Kontrollstrukturen und der Einsatz von Variablen: class/04-Variablen-Ausdruecke-und-Kontrollstrukturen
     #- Strukturiertes Speichern von Daten in Arrays und komplexe Schleife: class/05-Arrays-und-komplexe-Schleifen
