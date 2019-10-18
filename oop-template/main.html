@@ -12,9 +12,11 @@
 {% endblock %}
 
 {% block content %}
-	{% if page.meta.author and  page.meta.date %}
-		<div class="page_info">Zuletzt aktualisiert am <span class="date">{{ page.meta.date }}</span><span class="author">({{ page.meta.author }})</span></div>
-	{% endif %}
+	<div class="page_info">Zuletzt aktualisiert am <span class="date">{{ page.meta.revision_date }}</span>
+        {% if page.meta.author %}
+        <span class="author">({{ page.meta.author }})</span>
+        {% endif %}
+    </div>
 	{{ super() }}
 {% endblock content %}
 
