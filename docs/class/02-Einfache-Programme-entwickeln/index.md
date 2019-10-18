@@ -2,7 +2,7 @@
 author:	Alexander Bazo
 ---
 
-# Ein- und Ausgabe in einfachen Programmen
+# Einfache Programme entwickeln
 
 In der zweiten Woche erfahren Sie wie Computerprogramme im Allgemeinen und Java-Programme im speziellen erstellt und ausgeführt werden. Sie lernen den grundlegenden Aufbau eines Java-Programms kennen. Anhand einfacher Beispiele werden Sie an die strukturierte Analyse von Programmierproblemen und die Identifikation und Implementierung von Teilproblemen und derer Lösung herangeführt. Praktische Grundlage für die Themen sind einfache Konsolenanwendungen und komplexerer *Bouncer*-Programme.
 
