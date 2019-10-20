@@ -13,7 +13,7 @@ Im Rahmen der ersten Vorlesung wird die inhaltliche und organisatorische Struktu
 
 Im ersten inhaltlichen Teil wird eine erste Arbeitsdefinition des Begriffs *Programmieren* erarbeitet und die Bedeutung des Kurses für das Studium der Medieninformatik erläutert. Anschließend werden am Beispiel der Programmierumgebung *Bouncer* die Grundlagen des prozeduralen Programmaufbaus erläutert. Anhand einfacher Beispiele werden zentrale Begriffe wie *Programm*, *Anweisungen*, *Methoden* und *Bedingungen* eingeführt. Sie lernen den Aufbau einfacher Programme kennen und erfahren, wie der *Programmfluss* innerhalb erster Algorithmen gesteuert und beeinflusst werden kann.
 
-Die Folien zu dieser Vorlesung finden Sie [hier](https://regensburger-forscher.de/oop-slides/index.html?slides=01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen).
+Die Folien zu dieser Vorlesung finden Sie [hier](https://regensburger-forscher.de/oop-slides/index.html?slides=01-Einfuehrung-in-die-Programmierung-und-die-Programmiersprachen).
 
 ## Lesetexte
 
