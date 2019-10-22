@@ -1,6 +1,5 @@
 ---
 author:	Alexander Bazo
-date: 11. September 2019
 ---
 
 # Übungsblatt 2
@@ -115,3 +114,15 @@ im Rahmen des Programms gelöst werden müssen.
     daran, dass er Felder farbig markieren und auch wieder *entfärben*
     kann. Versuchen Sie den jeweils korrekten Weg zwischen Mauerzeile
     und Stapel mit dieser Methodik zu kennzeichnen.
+
+## Hello World
+
+Öffnen Sie IntelliJ und erstellen Sie über das Menü `Datei` und die Befehle `Neu` und `Projekt` ein neues JAVA-Projekt. Übernehmen Sie alle angebotenen Optionen und speichern Sie das Projekt an beliebiger Stelle ab. 
+
+Erstellen Sie anschließend über das Kontextmenü eine neue Datei bzw. Klasse im Ordner `src`, die Sie *HelloWorld* nennen. Ergänzen Sie dort eine `main`-Methode. Sorgen Sie dafür, dass beim Starten des Programms 17x Ihr Name auf dem Bildschirm ausgegeben wird.
+
+!!! hint "Hello World"
+    Diese Aufgabe dient dazu, das in der Vorlesung vorgestellte *Hello World*-Programm zu reproduzieren. Sie können große Teil des Codes von den [Vorlesungsfolien](https://regensburger-forscher.de/oop-slides/index.html?slides=02-Einfache-Programme-entwickeln) übernehmen. Bitte schreiben Sie den Code aber selbst und kopieren ihn nicht. Nutzen Sie jede Chance, selbst Code zu schreiben. Durch die ständige Wiederholung prägen Sie sich den genauen Aufbau von Schleifen oder Bedingungen gut ein und können diese später "auswendig" wiedergeben. Dadurch können Sie sich vollständig auf die Lösung des eigentlichen Problems konzentrieren, statt über Klammern, Strichpunkte oder andere Sprachelemente nachzudenken.
+
+![](img/hello-world-output.png){:: class=center}
+<div class="img-label">Ausgabe des Hello World-Programms in der Entwicklungsumgebung.</div>

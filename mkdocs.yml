@@ -47,7 +47,7 @@ nav:
   - Übungsblätter: 
     - Übersicht: tasks
     - U01: tasks/U01
-    #- U02: tasks/U02
+    - U02: tasks/U02
     #- U03: tasks/U03
     #- U04: tasks/U04
     #- U05: tasks/U07
