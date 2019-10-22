@@ -13,10 +13,9 @@ date: 11. September 2019
 
 ## Starterpakete
 
-Vorbereitete Starterpakete zur selbständigen Implementierung der Aufgaben finden Sie hier:
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgaben finden Sie hier:
 
  - [Bouncer-Startpaket](https://github.com/OOP-Regensburg/Bouncer-Exercise-02/archive/Starterpaket.zip)
- - [Konsolen-Startpaket](https://github.com/OOP-Regensburg/Console-Exercise-02/archive/Starterpaket.zip)
 
 ## **Bouncer auf Schatzsuche**
 
@@ -116,58 +115,3 @@ im Rahmen des Programms gelöst werden müssen.
     daran, dass er Felder farbig markieren und auch wieder *entfärben*
     kann. Versuchen Sie den jeweils korrekten Weg zwischen Mauerzeile
     und Stapel mit dieser Methodik zu kennzeichnen.
-
-## **Hello Console**
-
-Dieses Beispiel ist ein sehr einfaches Programm, das lediglich zeigen
-soll, wie Sie eigene Programme zur Ausgabe von Text erstellen können.
-Schreiben Sie ein ConsoleProgram, das wie in der Vorlesung eine
-Mitteilung an den Nutzer ausgibt:
-
-![](img/console_finished.png)
-<div class="img-label">Die gewünschte Ausgabe des Programms.</div>
-
-Nutzen Sie die Übungsmöglichkeiten und kopieren keinen Code, sondern
-tippen jedes Zeichen selbst. Achten Sie außerdem auf korrekte Einrückung
-Ihres Quellcodes und füge Sie Ihrer Klasse und den Methoden passende
-Kommentare hinzu.
-
-## **Große und kleine Zahlen finden**
-
-In diesem Programm kann der Nutzer eine Reihe von Ganzzahlen eingeben.
-Das Programm bestimmt die größte und kleinste Zahl und gibt diese am
-Bildschirm aus, nachdem der Nutzer die Zahl 0 eingegeben hat:
-
-![](img/findrange.png)
-<div class="img-label">Ein Beispiel eines Programmablaufs und der zugehörigen Ausgabe.</div>
-
-Ihr Programm muss für die folgenden Sonderfälle funktionieren:
-
--   Wenn der Nutzer nur **eine** Zahl vor der 0 eingibt, soll das
-    Programm diese Zahl als größte und kleinste Zahl ausgeben.
-
--   Wenn der Nutzer **als erste** Zahl eine 0 eintippt, erhält das
-    Programm keine Werte und muss den Nutzer mit einer entsprechenden
-    Meldung darauf hinweisen.
-
-## **Pythagoras**
-
-Der Satz des Pythagoras besagt, dass sich die Seitenlängen eines
-rechtwinkligen Dreiecks wie folgt verhalten: `a^2 + b^2 = c^2`
-
-Diese Gleichung lässt sich wie folgt umschreiben: `c = sqrt(a^2+b^2)`
-
-Sie haben die meisten Operatoren in dieser Gleichung bereits in der
-Vorlesung kennengelernt. Es fehlt lediglich die Berechung der Wurzel,
-die Sie durch Aufruf der Methode `Math.sqrt()` berechnen können.
-Beispielsweise setzt der folgende Aufruf den Wert der Variablen `y` auf
-den Wert der Wurzel aus `x`.
-
-`double y = Math.sqrt(x);`
-
-Schreiben Sie ein Programm, bei dem der Nutzer die Werte für `a` und `b`
-als Ganzzahlen eingeben kann. Anschließend wird daraus `c` als `double`
-berechnet und das Ergebnis wieder an den Nutzer ausgegeben:
-
-![](img/pythagoras.png)
-<div class="img-label">Ein Beispiel eines Programmablaufs und der zugehörigen Ausgabe.</div>
