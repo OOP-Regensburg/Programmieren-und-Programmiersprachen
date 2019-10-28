@@ -15,7 +15,7 @@ Die Folien zu dieser Vorlesung finden Sie [hier](https://regensburger-forscher.d
 
 ## Lesetexte
 
-Die relevanten Lesetexte zu dieser Woche finden Sie aus rechtlichen Gründen im [GRIPS-Kurs](https://elearning.uni-regensburg.de/course/view.php?id=39457#section-0). Lesen Sie bitte die dort verfügbaren Kapitel 1 und 2 aus *Eric Roberts: The Art & Science of Java*.
+Die relevanten Lesetexte zu dieser Woche finden Sie aus rechtlichen Gründen im [GRIPS-Kurs](https://elearning.uni-regensburg.de/course/view.php?id=39457#section-0). Lesen Sie bitte das dort verfügbaren Kapitel 3 sowie die aufgeführten Ausschnitte aus dem Kapitel 4 aus *Eric Roberts: The Art & Science of Java*.
 
 ## Zentralübung
 
