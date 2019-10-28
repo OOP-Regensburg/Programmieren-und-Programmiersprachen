@@ -11,7 +11,7 @@ Woche | Vorlesung am | Vorlesung und Zentralübung | Übung | Themen
 :----:|:------------:|:---------------------------|:------|:-----
 1 | 15.10.2019 | [Einführung in die Programmierung](../01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen) | |  Kursorganisation, Programmaufbau, Erste Schritte, Bouncer  |
 2 | 22.10.2019 | [Einfache Programme entwickeln](../02-Einfache-Programme-entwickeln) | | Aufbau einfacher Programme, Java-Grundlagen, Dekomposition als Problemlösungsstrategie |
-3 | 29.10.2019 | [Verwendung von Klassen und Methoden](../03-Klassen-und-Methoden) | | Klassen und Methoden |
+3 | 29.10.2019 | [Grundlagen zu Variablen und Objekten](../03-Variablen-und-Objekte) | | Grundlagen zu Variablen, Datentypen, Klassen und Objekten |
 4 | 05.11.2019 | [Einfache Kontrollstrukturen und der Einsatz von Variablen](../04-Variablen-Ausdruecke-und-Kontrollstrukturen) | | Variablen, Ausdrücke und Kontrollstrukturen | 
 5 | 12.11.2019 | [Strukturiertes Speichern von Daten in Arrays und komplexe Schleife](../05-Arrays-und-komplexe-Schleifen) | | Arrays und komplexe Schleifen | 
 6 | 19.11.2019 | [Grundlagen der Klassenmodellierung](../06-Klassenmodellierung-1-Grundlagen) | | Klassenmodellierung 1: Grundlagen | 

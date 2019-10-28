@@ -1,2 +1,2 @@
-# Einfache Kontrollstrukturen und der Einsatz von Variablen
+# Fortgeschrittene Inhalte zu Methoden, Kontrollstrukuren und Arrays
 
