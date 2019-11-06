@@ -5,7 +5,7 @@ hide_toc: true
 ---
 
 !!! danger "Aktuelle Informationen"
-	Die auf dieser Seite bereitgestellten Informationen gelten für das **Wintersemester 2019/20**. Der Kurs beginnt mit der Vorlesung am 15. Oktober 2019 (12 Uhr, Raum H2). Die Übungen finden ab Mittwoch, dem 16. Oktober, statt. Die [Klausur](class/Klausur) wird am 18. Februar 2020 geschrieben. HInweise zu der aktuellen Studienleistung finden Sie [hier](class/Studienleistung). Die Informationen auf dieser Seite sind noch nicht vollständig und fehlerfrei und werden bis zum Kursstart ergänzt und aktualisiert.
+	Die auf dieser Seite bereitgestellten Informationen gelten für das **Wintersemester 2019/20**. Der Kurs beginnt mit der Vorlesung am 15. Oktober 2019 (12 Uhr, Raum H2). Die Übungen finden ab Mittwoch, dem 16. Oktober, statt. Die [Klausur](class/Klausur) wird am 18. Februar 2020 geschrieben. Hinweise zu der aktuellen Studienleistung finden Sie [hier](infos/Studienleistung).
 
 # Einführung in die Programmierung mit Java
 
@@ -29,4 +29,4 @@ Der Kurs *Einführung in die Programmierung mit Java* bildet das Modul *PI-BA-M0
 
 ## Prüfungsleistungen
 
-Um den Kurs - und damit auch das Modul *PI-BA-M01* - erfolgreich abzuschließen, müssen Sie die [Klausur](class/Klausur) am Ende der Vorlesungszeit bestehen. Die Modulnote entspricht zu 100% der Note, die Sie in der Klausur erwerben. Vorraussetzung für die Zulassung zur Klausur ist die erfolgreiche abgelegte der [Studienleistung](class/Studienleistung). Diese besteht aus drei Programmieraufgaben, die Sie im Rahmen des Semester bearbeiten und von denen Sie mindestens zwei bestehen müssen.
+Um den Kurs - und damit auch das Modul *PI-BA-M01* - erfolgreich abzuschließen, müssen Sie die [Klausur](class/Klausur) am Ende der Vorlesungszeit bestehen. Die Modulnote entspricht zu 100% der Note, die Sie in der Klausur erwerben. Vorraussetzung für die Zulassung zur Klausur ist die erfolgreiche abgelegte der [Studienleistung](infos/Studienleistung). Diese besteht aus drei Programmieraufgaben, die Sie im Rahmen des Semester bearbeiten und von denen Sie mindestens zwei bestehen müssen.
