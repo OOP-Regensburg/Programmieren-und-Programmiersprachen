@@ -32,8 +32,8 @@ nav:
     - Einführung in die Programmierung: class/01-Einfuerhung-in-die-Programmierung-und-die-Programmiersprachen
     - Einfache Programme entwickeln: class/02-Einfache-Programme-entwickeln
     - Verwendung von Variablen und Objekten: class/03-Variablen-und-Objekte
-    #- Einfache Kontrollstrukturen und der Einsatz von Variablen: class/04-Variablen-Ausdruecke-und-Kontrollstrukturen
-    #- Strukturiertes Speichern von Daten in Arrays und komplexe Schleife: class/05-Arrays-und-komplexe-Schleifen
+    - Einfache Kontrollstrukturen und der Einsatz von Variablen: class/04-Variablen-Ausdruecke-und-Kontrollstrukturen
+    - Strukturiertes Speichern von Daten in Arrays und komplexe Schleife: class/05-Arrays-und-komplexe-Schleifen
     #- Grundlagen der Klassenmodellierung: class/06-Klassenmodellierung-1-Grundlagen
     #- Vererbung und Sichtbarkeit von Methoden und Eigenschaften: class/07-Klassenmodellierung-2-Sichtbarkeit-und-Vererbung
     #- Grundlagen der Event-basierten Programmierung: class/08-Interfaces-und-Event-basierte-Programmierung
