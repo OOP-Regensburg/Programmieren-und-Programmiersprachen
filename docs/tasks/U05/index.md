@@ -21,7 +21,7 @@ Zeichenfläche darstellt. Jeder der Kreise hat eine zufällige Farbe,
 einen zufälligen Durchmesser zwischen 5 und 50 Pixeln und eine zufällige
 Position auf der Zeichenfläche. Die Kreise müssen alle innerhalb der
 Zeichenfläche dargestellt werden. Verwenden Sie die in der Vorlesung
-vorgestellte Klasse `RandomGenerator` um alle Zufallswerte zu erzeugen.
+vorgestellte Klasse `Random` um alle Zufallswerte zu erzeugen.
 
 ![image](img/screenshot_randomCircles.png)
 
@@ -54,7 +54,7 @@ Instanzvariablen verfügt:
 
 -   Ein Objekt der Klasse `Ellipse` zum Zeichnen des Balls.
 
--   Ein Objekt der Klasse `RandomGenerator`.
+-   Ein Objekt der Klasse `Random`.
 
 -   Variablen (primitive Datentypen) für die Geschwindigkeit in x und y
     Richtung - diese werden bei Objekterzeugung auf Zufallswerte
@@ -65,7 +65,7 @@ Zusätzlich verfügt die Klasse über zwei Konstanten, die für die
 zufällige Auswahl der Größe (bei der Initialisierung) des Balls genutzt
 werden sollen:
 
-```
+``` java
 private static final int MIN_DIAMETER = 50;
 private static final int MAX_DIAMETER = 100;
 ```
