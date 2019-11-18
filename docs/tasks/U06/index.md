@@ -84,29 +84,69 @@ folgende Aufgaben erfüllen:
     `toString`-Methode auf. Die Rückgabe der Methode wird auf der
     Konsole ausgegeben.
 
-## **Neue Shapes für die GraphicsApp**
 
-Erweitern Sie die Funktionalität der `GraphicsApp` um zwei neue Formen:
-Ein gleichschenkliges Dreieck (`Triangle`) sowie ein
-Achsen-symmetrisches Sechseck (`Hexagon`). Beide Formen werden durch
-entsprechende Java-Klassen abgebildet, die von `GraphicsObject` erben.
-Die Darstellung erfolgt in der überschriebenen `draw`-Methode durch
-Zeichnen der Umrisslinien. Das Innere der Formen muss nicht eingefärbt
-bzw. dargestellt werden. Testen Sie anschließend Ihre Anwendung, in dem
-Sie die auskommentierten Zeilen der `ShapesTestApp` durch Entfernen der
-Kommentare nutzbar machen und die Anwendung ausführen. Haben Sie die
-Klassen korrekt implementiert, sollten Sie die neuen Formen auf dem
-Bildschirm sehen. Das Sechseck bewegt sich nach oben links, das Dreieck
-nach unten rechts.
+## **Random Bouncing Balls**
 
-**Hinweise:** Speichern Sie in den Klassen die jeweiligen Eckpunkte und
-zeichnen Sie beim Aufruf von `draw` die Verbindungslinien zwischen
-diesen Punkten. Die Klassen `GraphicsObject` verfügt über Variablen und
-Methoden zur Abbildung eines Koordinatenpaars (x und y). Nutzen Sie
-diesen Punkt als Zentrum bzw. Schwerpunkt für Ihre neuen Formen und
-berechnen Sie die anderen Punkte auf dieser Basis. Denken Sie daran,
-dass die verschiedenen Methoden des `GraphicsObject` die x- und
-y-Koordinaten beeinflussen und Sie die Eckpunkte Ihrer Form regelmäßig
-(z.B. vor jedem Zeichnen) neu berechnen müssen.
+In diesem Programm bewegen sich zwei Bälle über die Zeichenfläche und
+prallen von den Wänden ab. Jeder Ball erhält zu Beginn eine zufällige
+Geschwindigkeit und Größe sowie eine zufällige Farbe, die sich nach
+jeder Kollision mit einer Wand zu einer anderen zufälligen Farbe ändert. Die Bälle selbst prallen nicht voneinander ab. Verwenden Sie die in der Vorlesung vorgestellte Klasse `RandomGenerator` um alle Zufallswerte zu
+erzeugen.
 
-![](img/screenshot_shapes.png)
+![image](img/screenshot_bouncingballs.png)
+
+**Vorgehen**
+
+Erstellen Sie eine eigene Klasse `RandomBall`, die über die folgenden
+Instanzvariablen verfügt:
+
+-   Ein Objekt der Klasse `Ellipse` zum Zeichnen des Balls.
+
+-   Ein Objekt der Klasse `Random`.
+
+-   Variablen (primitive Datentypen) für die Geschwindigkeit in x und y
+    Richtung - diese werden bei Objekterzeugung auf Zufallswerte
+    gesetzt. Die obere und untere Grenze für diese Werte werden dem
+    Konstruktor der Klasse übergeben.
+
+Zusätzlich verfügt die Klasse über zwei Konstanten, die für die
+zufällige Auswahl der Größe (bei der Initialisierung) des Balls genutzt
+werden sollen:
+
+``` java
+private static final int MIN_DIAMETER = 50;
+private static final int MAX_DIAMETER = 100;
+```
+
+Die Klasse `RandomBall` benötigt die folgenden `public`-Methoden:
+
+-   Einen Konstruktor mit Parametern für die Breite und Höhe der
+    Zeichenfläche sowie der oberen und unteren Grenze zur Bestimmung
+    der zufälligen Geschwindigkeit. Im Konstruktor wird der
+    Zufallsgenerator angelegt um damit die Größe, Farbe und
+    Geschwindigkeit des Balls zu bestimmen und ihn an einer zufälligen
+    Position zu platzieren.
+
+-   `update` - ändert die Position des `RandomBall` auf der Basis der
+    aktuellen Geschwindigkeit
+
+-   `draw` - zeichnet den `RandomBall`
+
+-   `checkWallCollision(int canvasWidth, int canvasHeight)` - überprüft
+    ob der Ball mit einer der Wände der Zeichenfläche (bestimmt über die
+    Parameter) kollidiert. Berührt der Ball eine der Wände, so werden
+    entsprechend Bewegungsrichung (siehe Vorlesungsbeispiel:
+    BouncingBall) und Farbe angepasst.
+
+Beachten Sie bitte, dass Sie wahrscheinlich weitere `private`-Methoden
+innerhalb der Klasse anlegen müssen, um Ihren Code übersichtlich zu
+gestalten.
+
+Zusätzlich zur Klasse `RandomBall` müssen Sie die vorgegebene Klasse
+`BallApp` fertig implementieren. In dieser sollen Sie die beiden Objekte der Klasse `RandomBall` erzeugen und die Kollision mit den Seitenwänden überprüfen. Initialisieren Sie die Zeichenfläche und die Bälle in der `setup`-Methode.\
+ (*Decomposition*: Lagern Sie die Teilbereiche der Initialisierung in einzelne Methoden aus, die dann in `setup` aufgerufen werden)
+
+In der `draw`-Methode werden bei jedem Aufruf der Hintergrund
+neu gezeichnet und die beiden Bälle aktualisiert und neu gezeichnet.
+Rufen Sie dafür die Methoden zur Kollisionsabfrage, zum *updaten* und
+zum Zeichnen in einer sinnvollen Reihenfolge für beide Objekte auf.
