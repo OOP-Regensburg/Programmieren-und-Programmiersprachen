@@ -84,8 +84,9 @@ folgende Aufgaben erfüllen:
 
 ## **Random Bouncing Balls**
 
-In diesem Programm bewegen sich zwei Bälle über die Zeichenfläche und
-prallen von den Wänden ab. Jeder Ball erhält zu Beginn eine zufällige
+In diesem Programm beschäftigen Sie sich mit der Klassenmodellierung im Kontext der GraphicsApp. 
+Die Aufgabe ist es, zwei Bälle über die Zeichenfläche zu bewegen und sie 
+von den Wänden abprallen zu lassen. Jeder Ball erhält zu Beginn eine zufällige
 Geschwindigkeit und Größe sowie eine zufällige Farbe, die sich nach
 jeder Kollision mit einer Wand zu einer anderen zufälligen Farbe ändert. Die Bälle selbst prallen nicht voneinander ab. Verwenden Sie die in der Vorlesung vorgestellte Klasse `Random` um die Zufallswerte zu
 erzeugen.
