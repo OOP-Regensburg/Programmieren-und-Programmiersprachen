@@ -12,10 +12,8 @@ date: 11. September 2019
 
 ## Starterpakete
 
-Vorbereitete Starterpakete zur selbständigen Implementierung der Aufgaben finden Sie hier:
-
- - [Konsolen-Startpaket](https://github.com/OOP-Regensburg/Console-Exercise-06/archive/Starterpaket.zip)
- - [GraphicsApp-Startpaket](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-06/archive/Starterpaket.zip)
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgaben finden Sie hier:
+ - [Startpaket](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-06/archive/Starterpaket.zip)
 
 ## **Eine Bibliotheks-App**
 
