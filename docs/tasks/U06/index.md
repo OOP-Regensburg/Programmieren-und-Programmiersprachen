@@ -62,8 +62,7 @@ Mediensammlung entworfen:
     hier jedoch die zusätzlichen Eigenschaften Laufzeit (in Minuten) und die Information, ob Bonusmaterial auf der DVD vorhanden ist
     abgebildet.
 
-Im zweiten Teil der Aufgabe wird eine `LibraryApp` erstellt. Erweitern
-Sie dazu die vorgegeben Datei im Starterpaket. Das Programm soll dabei
+Im zweiten Teil der Aufgabe wird eine `LibraryApp` erstellt. Erstellen Sie dazu eine neue Java-Klasse mit einer `main`-Methode (Siehe Vorlesung 2, Folie 18 ff.). Das Programm soll dabei
 folgende Aufgaben erfüllen:
 
 -   In einem Array vom Typ `Media` werden drei Medien gespeichert.
@@ -90,7 +89,7 @@ folgende Aufgaben erfüllen:
 In diesem Programm bewegen sich zwei Bälle über die Zeichenfläche und
 prallen von den Wänden ab. Jeder Ball erhält zu Beginn eine zufällige
 Geschwindigkeit und Größe sowie eine zufällige Farbe, die sich nach
-jeder Kollision mit einer Wand zu einer anderen zufälligen Farbe ändert. Die Bälle selbst prallen nicht voneinander ab. Verwenden Sie die in der Vorlesung vorgestellte Klasse `RandomGenerator` um alle Zufallswerte zu
+jeder Kollision mit einer Wand zu einer anderen zufälligen Farbe ändert. Die Bälle selbst prallen nicht voneinander ab. Verwenden Sie die in der Vorlesung vorgestellte Klasse `Random` um die Zufallswerte zu
 erzeugen.
 
 ![image](img/screenshot_bouncingballs.png)
@@ -143,8 +142,8 @@ innerhalb der Klasse anlegen müssen, um Ihren Code übersichtlich zu
 gestalten.
 
 Zusätzlich zur Klasse `RandomBall` müssen Sie die vorgegebene Klasse
-`BallApp` fertig implementieren. In dieser sollen Sie die beiden Objekte der Klasse `RandomBall` erzeugen und die Kollision mit den Seitenwänden überprüfen. Initialisieren Sie die Zeichenfläche und die Bälle in der `setup`-Methode.\
- (*Decomposition*: Lagern Sie die Teilbereiche der Initialisierung in einzelne Methoden aus, die dann in `setup` aufgerufen werden)
+`RandomBouncingBalls` fertig implementieren. In dieser sollen Sie die beiden Objekte der Klasse `RandomBall` erzeugen und die Kollision mit den Seitenwänden überprüfen. Initialisieren Sie die Zeichenfläche und die Bälle in der `initialize`-Methode.\
+ (*Decomposition*: Lagern Sie die Teilbereiche der Initialisierung in einzelne Methoden aus, die dann in `initialize` aufgerufen werden)
 
 In der `draw`-Methode werden bei jedem Aufruf der Hintergrund
 neu gezeichnet und die beiden Bälle aktualisiert und neu gezeichnet.
