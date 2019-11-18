@@ -1,5 +1,5 @@
 ---
-author:	Alexander Bazo
+author:	Alexander Bazo, Florin Schwappach
 date: 11. September 2019
 ---
 
