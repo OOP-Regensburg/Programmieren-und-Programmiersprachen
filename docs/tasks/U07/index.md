@@ -85,9 +85,9 @@ folgende Aufgaben erfüllen:
 
 Erweitern Sie die Funktionalität der `GraphicsApp` um zwei neue Formen:
 Ein gleichschenkliges Dreieck (`Triangle`) sowie ein
-Achsen-symmetrisches Sechseck (`Hexagon`). Beide Formen werden durch
-entsprechende Java-Klassen abgebildet, die von `GraphicsObject` erben.
-Die Darstellung erfolgt in der überschriebenen `draw`-Methode durch
+Achsen-symmetrisches Sechseck (`Hexagon`). 
+
+Erstellen Sie hierzu zwei `.java`-Klassendateien im Ordner `Shapes` in Ihrem Starterpaket. Beide Formen werden durch Java-Klassen abgebildet, die von `GraphicsObject` erben. Die Darstellung erfolgt in der überschriebenen `draw`-Methode durch
 Zeichnen der Umrisslinien. Das Innere der Formen muss nicht eingefärbt
 bzw. dargestellt werden. Testen Sie anschließend Ihre Anwendung, in dem
 Sie die auskommentierten Zeilen der `ShapesTestApp` durch Entfernen der
