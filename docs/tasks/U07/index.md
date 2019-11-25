@@ -3,139 +3,107 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
-
-## Übung zur Einführung in die objektorientierte Programmierung mit Java
-
 # Übungsblatt 7
 
-### **Klickbare Objekte [gemeinsam bearbeiten]**
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
 
-In dieser Aufgabe sollen Sie mehreren Objekten die Fähigkeit geben,
-klickbar zu sein. Dabei sollen die verschiedenen Objekte jeweils anders
-reagieren. Der Panda und der Vogel sollen ihre Position verändern. Die
-Augen sollen zwischen offen und geschlossen (= grau) wechseln.
-Implementieren Sie zwei Klassen **Animal** und **Eye**, welche beide das
-vorgegebene Interface **Clickable** implementieren. Der Hintergrund soll
-auf das Bild `rainbow.jpg` gesetzt werden.
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
 
-Um die Klicks auch an die Klassen weitergeben zu können, müssen Sie mit `public void mouseClicked(MouseEvent e)` Klicks auf den Canvas abfragen und an Ihre Objekte weiterleiten.
+## Starterpaket
 
-Drückt der Nutzer auf eine vorher festgelegte Taste zum Neustart, soll
-dieses Ereignis über `public void keyPressed(KeyEvent e)` abgefangen und behandelt werden.
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgaben finden Sie hier:
+ - [Starterpaket](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-07/archive/Starterpaket.zip)
 
-![image](img/ClickObjects.png)
-![image](img/ClickObjects2.png)
+## **Eine Bibliotheks-App**
 
-**Tipps:**
+Entwerfen Sie in dieser Aufgabe eine Klassenstruktur, die die Verwaltung
+von Medien in einem Bibliothekskatalog abbildet. Der Katalog soll Bücher
+und DVDs enthalten können; Ihre Anwendung nutzt die
+implementierten Klassen um Medien durch den Benutzer einlesen zu
+lassen.
 
--   In dieser Aufgabe müssen beide Methoden des Interfaces `Clickable`
-    für die Klassen `Animal` und `Eye` implementiert werden, sowohl
-    `onClick`, als auch `wasClicked`.
+![](img/screenshot_library.png)
 
--   Erzeugen Sie in der ClickObjects-Klasse ein Array mit Clickables      und füllen Sie es mit `Animal`s und `Eye`s.
+Im ersten Teil der Anwendung werden die nötigen Klassen für die
+Mediensammlung entworfen. Erstellen Sie hierzu in einem geeigneten Unterordner in Ihrem Projekt jeweils neue `.java`-Klassendateien:
 
--   Die Klassen unterscheiden sich nicht nur in ihrem Klickverhalten,
-    sondern auch in der Darstellung. Während `Animal` als `Image` der
-    `GraphicsApp` dargestellt wird, werden für `Eye` geometrische Formen
-    verwendet.
+-   Die Klasse `Media` stellt die Grundstruktur für alle anderen
+    Medientypen dar. Eine Klassenvariable (`static`) speichert die
+    Anzahl bereits erstellter `Media`-Instanzen und wird im Konstruktor
+    entsprechend bei jedem Aufruf inkrementiert. In nicht-öffentlichen
+    Instanzvariablen werden eine fortlaufende, numerische ID sowie das
+    Erscheinungsjahr und der Titel des Mediums mit passenden Datentypen
+    abgebildet. Initiale Werte für diese Eigenschaften werden dem
+    Konstruktor übergeben.
 
-### **Minigame mit Mausklick [vorbereiten]**
+    Die gespeicherten Werte können über `getter`-Methoden ausgelesen
+    werden. Überschreiben Sie die implizit von `Object` geerbte Methode
+    `toString`. Diese soll einen verketteten Text zurückgeben, der
+    sowohl die ID als auch den Titel und das Erscheinungsjahr des
+    jeweiligen Mediums zurück gibt.
 
-Erstellen Sie ein kleines Reaktionsspiel. Ziel des Spiels ist es einen
-Ball, der sich innerhalb der Grenzen des Fensters linear bewegt, mit der
-Maus zu treffen. Berührt der Ball eine der Seiten, prallt er von der
-Wand ab. Schafft es der Nutzer, den Ball zu treffen in dem er mit der
-Maus auf diesen klickt, erhöht sich die Geschwindigkeit des Balls um
-eins. Gleichzeitig erhöht sich die Punktzahl des Spielers um 10. Klickt der Benutzer daneben, erhöht sich die Geschwindigkeit des Balls
-ebenfalls um eins und dem Spieler werden 10 Punkte abgezogen.
+-   Die Klasse `Book` erbt von `Media` und erweitert diese um jeweils
+    eine Eigenschaft für den Autoren und die Anzahl der Seiten.
+    Verwenden Sie geeignete Instanzvariablen und sorgen Sie dafür, dass
+    deren Inhalt über `getter`-Methoden ausgelesen werden kann. Die
+    initialen Werte sollen wieder über den Konstruktor übergeben werden.
+    Achten Sie beim Implementieren des Konstruktors darauf, dass auch
+    die ursprünglichen `Media`-Eigenschaften (Titel und Jahr) als
+    Parameter übergeben werden, und dass der eigentliche Konstruktor der
+    *Elternklasse* mit diesen Werten aufgerufen wird. Überschreiben Sie
+    die `toString`-Methode so, dass auch die zusätzlichen Eigenschaften
+    im zurückgegebenen String enthalten sind.
 
-![image](img/07_minigame.png)
+-   Die Klasse `DVD` erbt ebenfalls von `Media`. Implementieren Sie
+    diese genau wie `Book`. Anstatt Autorenname und Seitenzahl werden
+    hier jedoch die zusätzlichen Eigenschaften Laufzeit (in Minuten) und die Information, ob Bonusmaterial auf der DVD vorhanden ist
+    abgebildet.
 
-**Tipps:**
+Im zweiten Teil der Aufgabe wird eine `LibraryApp` erstellt. Erstellen Sie dazu eine neue Java-Klasse mit einer `main`-Methode (Siehe Vorlesung 2, Folie 18 ff.). Das Programm soll dabei
+folgende Aufgaben erfüllen:
 
--   Implementieren Sie eine eigene Klasse für den Ball, die von Ellipse
-    erbt und zusätzlich die Methoden
-    `checkWallCollision(int width, int height)`\
-    und `checkMouseHit(MouseEvent e)` implementiert. (Beachten Sie dazu
-    später unbedingt die folgende Aufgabe Vererbung vs. Composition).
+-   In einem Array vom Typ `Media` werden drei Medien gespeichert.
 
--   Implementieren Sie auch für den Punktestand eine eigene Klasse die
-    Methoden zur Veränderung des Punktestands besitzt.
+-   Der Benutzer wird für jede Stelle des Arrays aufgefordert, die Daten
+    eines neuen Medium einzugeben. Dabei kann er über eine numerische
+    Eingabe auswählen, ob ein Buch oder eine DVD gespeichert werden
+    soll.
 
--   Sie benötigen wieder eine `GraphicsApp`, in der Sie den Ball und den
-    Punktezähler erzeugen. Übergeben Sie bei der Kollisionabfrage die
-    Breite und Höhe der Spielfläche an die Methode
-    `checkWallCollision(int width, int height)` des Balls. Übergeben Sie
-    dem Ball ebenfalls das `MouseEvent`, wenn der Nutzer auf die
-    Spielfläche geklickt hat.
+-   Je nach Auswahl des Nutzers werden anschließend die nötigen
+    Informationen über die Konsole eingelesen. Mit den Eingaben wird ein
+    entsprechende Objekt vom Typ `Book` oder `DVD` erstellt und im Array
+    gespeichert.
 
-### **Vererbung vs. *Composition* [vorbereiten]**
+-   Nach Eingabe aller Medien wird eine Liste mit dem Inhalt der
+    Bibliothek ausgegeben. Iterieren Sie hierzu über das komplette Array
+    und rufen Sie für jedes gespeicherte Objekt dessen
+    `toString`-Methode auf. Die Rückgabe der Methode wird auf der
+    Konsole ausgegeben.
 
-Grundsätzlich haben Sie zwei Möglichkeiten, die Aufgabe Minigame zu
-lösen. In beiden Fällen sieht der Client-Code identisch aus.
+## **Neue Shapes für die GraphicsApp**
 
-**Codebeispiel Client Code für beide Varianten**
+Erweitern Sie die Funktionalität der `GraphicsApp` um zwei neue Formen:
+Ein gleichschenkliges Dreieck (`Triangle`) sowie ein
+Achsen-symmetrisches Sechseck (`Hexagon`). Beide Formen werden durch
+entsprechende Java-Klassen abgebildet, die von `GraphicsObject` erben.
+Die Darstellung erfolgt in der überschriebenen `draw`-Methode durch
+Zeichnen der Umrisslinien. Das Innere der Formen muss nicht eingefärbt
+bzw. dargestellt werden. Testen Sie anschließend Ihre Anwendung, in dem
+Sie die auskommentierten Zeilen der `ShapesTestApp` durch Entfernen der
+Kommentare nutzbar machen und die Anwendung ausführen. Haben Sie die
+Klassen korrekt implementiert, sollten Sie die neuen Formen auf dem
+Bildschirm sehen. Das Sechseck bewegt sich nach oben links, das Dreieck
+nach unten rechts.
 
-    public class BallApp extends GraphicsApp {
-        public void setup() {
-            Ball ball = new Ball(10, 10);
-            ball.move(5, 5);
-        }
-    }
+**Hinweise:** Speichern Sie in den Klassen die jeweiligen Eckpunkte und
+zeichnen Sie beim Aufruf von `draw` die Verbindungslinien zwischen
+diesen Punkten. Die Klassen `GraphicsObject` verfügt über Variablen und
+Methoden zur Abbildung eines Koordinatenpaars (x und y). Nutzen Sie
+diesen Punkt als Zentrum bzw. Schwerpunkt für Ihre neuen Formen und
+berechnen Sie die anderen Punkte auf dieser Basis. Denken Sie daran,
+dass die verschiedenen Methoden des `GraphicsObject` die x- und
+y-Koordinaten beeinflussen und Sie die Eckpunkte Ihrer Form regelmäßig
+(z.B. vor jedem Zeichnen) neu berechnen müssen.
 
-Die erste Möglichkeit nutzt das Prinzip **Vererbung**. In dieser
-Variante lassen Sie Ihre `Ball`-Klasse direkt von `Ellipse` erben und
-somit stehen Ihnen als Implementor und Client alle öffentlichen Methoden der Klasse `Ellipse` zur Verfügung.
-
-**Codebeispiel Vererbung**
-
-    public class Ball extends Ellipse {
-        public Ball(int width, int height) {
-            super(width, height, 20, 20, Color.BLACK);
-        }
-    }
-
-In der zweiten Variante erstellen Sie die Klasse `Ball` ohne Vererbung
-und packen stattdessen die `Ellipse` als Instanzvariable in die Klasse
-`Ball` (**Composition**).
-
-**Codebeispiel Composition**
-
-    public class Ball  {
-        private Ellipse ball;
-        
-        public Ball(int width, int height) {
-            ball = new Ellipse(width, height, 20, 20, Color.BLACK);
-        }
-        
-        public void move(int xDiff, int yDiff) {
-            ball.move(xDiff, yDiff);
-        }
-    }
-
-Mit beiden Ansätzen lässt sich die Aufgabe MiniGame lösen.
-
-Beantworten Sie die folgenden Fragen:
-
-1.  Welche Vor- und Nachteile ergeben sich für diese beiden Varianten?
-
-2.  Welche Variante würden Sie für die folgenden Fälle wählen?
-
-    1.  Ein `HitCounter`, der Treffer zählt und die Ausgabe über ein
-        `Label` erzeugt.
-
-    2.  Eine `CheckeredEllipse`, die sich wie eine `Ellipse` verhält,
-        deren Hintergrund aber nicht einfarbig, sondern kariert
-        dargestellt wird.
-
-    3.  Ein `Paddle`, das Sie steuern können, das Kollisionen mit dem
-        Rand überprüfen kann und das mithilfe eines `Rect`-Objekts
-        gezeichnet wird.
-
-    4.  Eine gestrichelte Linie (`DashedLine`).
-
-----
-
-**Hinweis:** Übungsaufgaben und Konzept basieren zum Teil auf dem Kurs
-*CS106A: Programming Methodology* der Universität Stanford von Eric
-Roberts und Mehran Sahami
+![](img/screenshot_shapes.png)
