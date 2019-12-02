@@ -35,8 +35,8 @@ nav:
     - Einfache Kontrollstrukturen und der Einsatz von Variablen: class/04-Variablen-Ausdruecke-und-Kontrollstrukturen
     - Strukturiertes Speichern von Daten in Arrays und komplexe Schleife: class/05-Arrays-und-komplexe-Schleifen
     - Grundlagen der Klassenmodellierung: class/06-Klassenmodellierung-1-Grundlagen
-    #- Vererbung und Sichtbarkeit von Methoden und Eigenschaften: class/07-Klassenmodellierung-2-Sichtbarkeit-und-Vererbung
-    #- Grundlagen der Event-basierten Programmierung: class/08-Interfaces-und-Event-basierte-Programmierung
+    - Vererbung und Sichtbarkeit von Methoden und Eigenschaften: class/07-Klassenmodellierung-2-Sichtbarkeit-und-Vererbung
+    - Grundlagen der Event-basierten Programmierung: class/08-Interfaces-und-Event-basierte-Programmierung
     #- Einfache String- und Textverarbeitung: class/09-Strings-und-Textverarbeitung
     #- Planhaftes Vorgehen bei der Softwareentwicklung: class/10-Planhaftes-Vorgehen-bei-der-Softwareentwicklung
     #- Komplexe Datenstrukturen. Listen, Maps und die Collections: class/11-Komplexe-Datenstrukturen
