@@ -11,15 +11,9 @@ date: 11. September 2019
  - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
  - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
 
-## Starterpaket
-
-Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgaben finden Sie hier:
- - [Starterpaket](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-08/archive/Starterpaket.zip)
  
- 
-**Hinweis:** Erstellen Sie für jede der Aufgaben ein sinnvoll benanntes
-`package` im `src`-Ordner des Starterpakets. Nutzen Sie das
-*ConsoleProgramm* `MainApp` um die verschiedenen Klassen des
+**Hinweis:** Erstellen Sie für ein neues IntelliJ-Projekt für dieses Übungsblatt. Erzeugen Sie für jede der Aufgaben ein sinnvoll benanntes
+`package` im `src`-Ordner des Projekts. Erstellen Sie eine `StringApp`-Klasse mit einer `main`-Methode, um die verschiedenen Klassen des
 Übungsblatts zu instanziieren und zu testen.
 
 ### **Delete Character**
