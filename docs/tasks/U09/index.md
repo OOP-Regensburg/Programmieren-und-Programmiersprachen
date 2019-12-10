@@ -4,62 +4,144 @@ date: 11. September 2019
 ---
 
 
-## Übung zur Einführung in die objektorientierte Programmierung mit Java
-
 # Übungsblatt 9
 
-### **Debugging der ClickObjects-Aufgabe [gemeinsam bearbeiten]**
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
 
-In der letzten Woche haben Sie in der Übung eine Anwendung zur
-Demonstration von Interfaces programmiert. Im aktuellen Starterpaket
-finden Sie eine Lösung zu dieser Aufgabe. Es haben sich allerdings drei Fehler eingeschlichen, die verhindern, dass die Anwendung wie gewünscht funktioniert.
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
 
-Versuchen Sie die fehlerhaften Stellen im Code zu identifizieren und
-auszubessern. Gehen Sie dabei systematisch vor und berücksichtigen Sie
-die Hinweise und *Debugging*-Strategien aus der aktuellen Vorlesung.
+## Starterpaket
 
-Nutzen Sie dazu auch den eingebauten *Debugger* Ihrer
-Entwicklungsumgebung, um die Vorgänge im Programm schrittweise
-nachzuvollziehen. Sie können dazu z.B. *Breakpoints* setzen, die Anwendung über das entsprechende *Debugger*-Icon starten und *Schritt-für-Schritt* durchgehen. 
+Ein vorbereitetes Starterpaket zur selbständigen Implementierung der Aufgaben finden Sie hier:
+ - [Starterpaket](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-08/archive/Starterpaket.zip)
+ 
+ 
+**Hinweis:** Erstellen Sie für jede der Aufgaben ein sinnvoll benanntes
+`package` im `src`-Ordner des Starterpakets. Nutzen Sie das
+*ConsoleProgramm* `MainApp` um die verschiedenen Klassen des
+Übungsblatts zu instanziieren und zu testen.
 
-Achten Sie genau auf die Reihenfolge der Methodenaufrufe,
-die logische Anordnung von Kontrollstrukturen und die verwendeten
-Parameter. Rufen Sie sich im Vorfeld die Anforderungen der Aufgabe
-(siehe letztes Übungsblatt) in Erinnerung und testen Sie regelmäßig und ausführlich, ob alle Funktionen nutzbar sind.
+### **Delete Character**
 
-**Achtung:** Auf der folgenden Seite finden Sie eine Liste mit den
-Fehlern und einer kurzen Erklärung zu diesen. Versuchen Sie aber bitte
-zuerst, das Programm eigenständig zu *debuggen*. Kontrollieren Sie dann anhand der Lösung, ob Sie alle fehlerhaften Stellen gefunden haben.
+Schreiben Sie eine Klasse `Remover `mit einer statischen Methode
 
-Lösung
-------
+`public static String removeOccurrences``(String str, char ch)`
 
-1.  **Initialisierung der klickbaren Objekte**
-    (`ClickObjects.java, Zeile 63`)\
-    In der Methode `createObjects()` der `ClickObjects`-Klasse werden
-    Instanzen der klickbaren Objekte erzeugt und zusätzlich in einem
-    Array abgespeichert. Dieses Array wird durchlaufen, wenn ein
-    Mausklick im Programm registriert wird. Dabei wird überprüft,
-    welches der Objekte geklickt wurde und anschließend der
-    Klick-Handler der Klasse aufgerufen. Bei der Initialisierung wurde
-    vergessen, das letzte Element von `clickables` zu belegen. So wird
-    durch den Zugriff in der mouseClicked()-Methode eine
-    `NullPointerException` ausgelöst.
+die alle Zeichen `ch `aus `str `löscht und das Ergebnis wie folgend
+zurückgibt:
 
-2.  **Positionieren der Augen** (`Eye.java, Zeile 26`)\
-    Nach dem Starten der Anwendung sind nur 3 der 4 Objekte sichtbar.
-    Der Grund dafür findet sich in der `Eye`-Klasse. Im Konstruktor
-    werden die entsprechenden Instanzvariablen mit den Initialwerten
-    belegt. Dabei wird jedoch der Parameter für die y-Position auch mit
-    dem Wert des `xPos`-Parameters belegt. Da der y-Wert so zu groß für
-    den Canvas ist, ist das Auge unsichtbar.
+`Remover.removeOccurrences("’This is a test"’, ’t’)` **gibt zurück:**
 
-3.  **Darstellung der Tiere** (`Animal.java, Zeile 15`)\
-    Die Tiere lassen sich nicht zeichnen -- sobald Zeichenaufruf
-    stattfindet, produziert das Programm eine `NullPointerException`.
-    Verantwortlich ist ein fehlender Initialisierungsaufruf in der
-    Klasse `Animal`. Im Konstruktor muss die Methode `createImage()`
-    aufgerufen werden. Passiert dies nicht, entsteht bei den
-    implementierten Methoden des `Clickable`-Interface und der
-    `draw()`-Methode ein Zugriff auf eine nicht initialisierte Variable.
-    Dies führt zum Ausnahmefehler.
+`"’This is a es"’`\
+
+`Remover.removeOccurrences("’Summer is here"’, ’e’)` **gibt zurück:**
+
+`"’Summr is hr"’`\
+
+`Remover.removeOccurrences("’—0—"’, ’-’)` **gibt zurück:**
+ 
+ `"’0"’`
+
+Beachten Sie, dass Sie kein Objekt einer Klasse erstellen müssen, wenn
+Sie lediglich statische Methoden (wie in diesem Fall) nutzen.
+
+### **NumberDelimiter**
+
+Beim Schreiben von besonders großen Zahlen ist es üblich, ein
+Tausender-Trennzeichen zu benutzen, um die Ziffernfolge in Dreiergruppen zu unterteilen. Dieses Trennzeichen kann ein Leerzeichen, ein Komma oder
+ein Punkt sein.
+
+Eine Million würde zum Beispiel folgendermaßen geschrieben:
+
+1,000,000\
+1.000.000\
+1 000 000
+
+Um die Darstellung solcher Zahlen zu vereinfachen, sollen Sie nun eine
+Klasse `CommaGenerator ` implementieren, welche ein bei der Objekterstellung
+übergebenes Trennzeichen als Instanzvariable abspeichert, auf die bei
+der Verarbeitung der Ziffernfolgen zugegriffen wird. Die erlaubten
+Trennzeichen sollen die oben genutzten sein (Komma, Punkt, Leerzeichen).
+Benutzen Sie hierzu folgenden Klassenrumpf:
+
+    public class CommaGenerator{
+
+        public static final int SEPARATOR_COMMA = 0;
+        public static final int SEPARATOR_POINT = 1;
+        public static final int SEPARATOR_SPACE = 2;
+        
+        private char separator;
+
+        // Konstruktor und Methoden hier implementieren
+
+    }
+
+Achtung: Nutzen Sie bei Objekterzeugung die statischen Variablen (vgl.
+Enumeration-Prinzip) der Klasse `CommaGenerator ` oder nutzen Sie den
+Enum-Datentyp (vgl. Vorlesung) und übergeben Sie diese dem Konstruktor, z.B. so:
+
+    CommaGenerator commaGenerator = new CommaGenerator(CommaGenerator.SEPARATOR_SPACE);
+
+Im Konstruktor lesen Sie den übergebenen Wert und setzen das
+Trennzeichen für das Objekt entsprechend des Parameters. Wird kein
+gültiges Trennzeichen übergeben, soll das Komma verwendet werden. Ein
+Objekt dieser Klasse soll nun also mit der Methode
+
+`public String addSeparatorToNumericString``(String digits)`
+
+einen übergebenen Text aus Zahlen mit Trennzeichen an jeder dritten
+Position von rechts zurückgeben.
+Ein ConsoleProgram mit folgendem Code ...
+
+    public void run() {
+        CommaGenerator commaGenerator = new CommaGenerator(CommaGenerator.SEPARATOR_COMMA);
+        while (true) {
+            String digits = readLine("Enter a numeric string: ");
+            if (digits.length() == 0) {
+                break;
+            }
+            String result = commaGenerator.addSeperatorToNumericString(digits);
+            println(result);
+        }
+    }
+
+sollte also folgendes Ergebnis liefern:
+
+![image](img/07_CommaGenerator.png)
+
+
+### **Scrabble Score**
+
+In Scrabble ist jedem Buchstaben eine Punktzahl zugeordnet, die von
+seiner Häufigkeit in der entsprechenden Sprache abhängt.
+
+Für die englische Version gelten die folgenden Punktzahlen:
+
+  
+| **Punkte** |          **Buchstaben**            |
+| --- | --- |
+| 1 |             A, E, I, L, N, O, R, S, T, U    | 
+| 2  |                        D, G                |
+| 3  |                     B, C, M, P             | 
+| 4    |                 F, H, V, W, Y            | 
+| 5   |                        K                  | 
+| 8   |                       J, X                |  
+| 10    |                     Q, Z                | 
+
+Das Wort **FARM** ist folglich 9 Punkte wert: 4 für das F, jeweils einen für A und R und 3 für das M.
+
+Schreiben Sie eine Klasse `ScrabbleScoreChecker `mit einer statischen
+Methode
+
+`public static int getWordScore``(String str)`
+
+welche die Punkte für ein übergebenes Wort zurückgibt. Um zu überprüfen, wie viele Punkte ein einzelner `char `bringt, können
+Sie die einzelnen Buchstaben in jeweils einem String pro Gruppe
+abspeichern (z.B.: `private final String onePointChars =
+"AEILNORSTU"`) und mit der `indexOf()`-Methode der
+`String`-Klasse überprüfen, an welcher Stelle ein bestimmter `char`
+darin vorkommt (gibt -1 zurück, falls er nicht darin vorkommt). Ihr
+Programm soll am Ende folgende Ausgabe produzieren können:
+
+![image](img/07_scrabble.png)
