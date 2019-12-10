@@ -14,7 +14,7 @@ date: 11. September 2019
  
 **Hinweis:** Erstellen Sie für ein neues IntelliJ-Projekt für dieses Übungsblatt. Erzeugen Sie für jede der Aufgaben ein sinnvoll benanntes
 `package` im `src`-Ordner des Projekts. Erstellen Sie eine `StringApp`-Klasse mit einer `main`-Methode, um die verschiedenen Klassen des
-Übungsblatts zu instanziieren und zu testen.
+Übungsblatts zu instanziieren und zu testen. Prüfen Sie mit verschiedenen `Strings` die Funktionsweise.
 
 ### **Delete Character**
 
@@ -86,24 +86,6 @@ Objekt dieser Klasse soll nun also mit der Methode
 
 einen übergebenen Text aus Zahlen mit Trennzeichen an jeder dritten
 Position von rechts zurückgeben.
-Ein ConsoleProgram mit folgendem Code ...
-
-    public void run() {
-        CommaGenerator commaGenerator = new CommaGenerator(CommaGenerator.SEPARATOR_COMMA);
-        while (true) {
-            String digits = readLine("Enter a numeric string: ");
-            if (digits.length() == 0) {
-                break;
-            }
-            String result = commaGenerator.addSeperatorToNumericString(digits);
-            println(result);
-        }
-    }
-
-sollte also folgendes Ergebnis liefern:
-
-![image](img/07_CommaGenerator.png)
-
 
 ### **Scrabble Score**
 
@@ -135,7 +117,4 @@ Sie die einzelnen Buchstaben in jeweils einem String pro Gruppe
 abspeichern (z.B.: `private final String onePointChars =
 "AEILNORSTU"`) und mit der `indexOf()`-Methode der
 `String`-Klasse überprüfen, an welcher Stelle ein bestimmter `char`
-darin vorkommt (gibt -1 zurück, falls er nicht darin vorkommt). Ihr
-Programm soll am Ende folgende Ausgabe produzieren können:
-
-![image](img/07_scrabble.png)
+darin vorkommt (gibt -1 zurück, falls er nicht darin vorkommt).
