@@ -39,7 +39,7 @@ nav:
     - Grundlagen der Event-basierten Programmierung: class/08-Interfaces-und-Event-basierte-Programmierung
     #- Einfache String- und Textverarbeitung: class/09-Strings-und-Textverarbeitung
     #- Planhaftes Vorgehen bei der Softwareentwicklung: class/10-Planhaftes-Vorgehen-bei-der-Softwareentwicklung
-    #- Komplexe Datenstrukturen. Listen, Maps und die Collections: class/11-Komplexe-Datenstrukturen
+    - Komplexe Datenstrukturen 1: Mehrdimensionale Arrays und Listen: class/11-Komplexe-Datenstrukturen
     #- Qualitätsaspekte von Quellcode: class/12-Codequalitaet-und-Debugging
     #- Speicherverwaltung auf Heap- und Stack: class/13-Speicher-und-Exceptions
     #- Externes Bereitstellen und Speichern von Inhalten in Dateien: class/14-Persistente-Daten
