@@ -12,9 +12,11 @@ date: 11. September 2019
 
 ## Starterpaket
 
-**Hinweis:** Im Starterpaket finden Sie den vorgegebenen Code für die
+**Hinweis:** Im Starterpaket finden Sie vorgegebenen Code für die
 unterschiedlichen Klassen sowie die beiden Bilddateien, die Sie als
 Ausgangsmaterial für die entsprechenden Aufgaben verwenden können.
+
+ - [Starterpaket](https://github.com/OOP-Regensburg/GraphicsApp-Exercise-10/archive/Starterpaket.zip)
 
 ## Car-Simulator
 
