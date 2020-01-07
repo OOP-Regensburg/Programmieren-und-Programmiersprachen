@@ -3,16 +3,13 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
-
-## Übung zur Einführung in die objektorientierte Programmierung mit Java
-
 # Übungsblatt 10
 
 **Hinweis:** Im Starterpaket finden Sie den vorgegebenen Code für die
 unterschiedlichen Klassen sowie die beiden Bilddateien, die Sie als
 Ausgangsmaterial für die entsprechenden Aufgaben verwenden können.
 
-### **Car-Simulator [wird gemeinsam bearbeitet]**
+### **Car-Simulator**
 
 Erstellen Sie ein Programm, das den Verkehr auf einer mehrspurigen
 Straße animiert:
@@ -93,7 +90,7 @@ und Positionen zuständig. Aus der Klasse `CarSimulator` werden lediglich die Me
         
         /* Your code here... */
 
-### **Image Processing I - Bild spiegeln [optional]**
+### **Image Processing I - Bild spiegeln**
 
 Schreiben Sie eine Methode `flipImageHorizontal``(Image img)`, welche
 aus einem Image-Objekt die Pixel-Daten ausliest und anschließend so
@@ -128,7 +125,7 @@ Gegeben ist folgender Rumpf:
 `flipImageVertical``(Image img)`, mit deren Hilfe das Bild vertikal
 gespiegelt wird.
 
-### **Image Processing II: Weichzeichnen [optional]**
+### **Image Processing II: Weichzeichnen**
 
 Bildverarbeitung ist ein wichtiges Thema im Design und der
 Computergraphik. Um zu verstehen, wie Programme wie zum Beispiel
@@ -176,9 +173,3 @@ Pixel überhaupt noch im Bild liegt (bei \[0\]\[0\] liegen die Pixel
 links und darüber nicht mehr im Array).
 
 ![image](img/10_blur2.png)
-
-----
-
-**Hinweis:** Übungsaufgaben und Konzept basieren zum Teil auf dem Kurs
-*CS106A: Programming Methodology* der Universität Stanford von Eric
-Roberts und Mehran Sahami
