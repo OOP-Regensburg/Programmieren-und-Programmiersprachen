@@ -43,58 +43,56 @@ Straße animiert:
 ![image](img/09_cars.png)
 
 Die Klasse `Car` ist vollständig für die Berechnung der Fahrzeugfarben
-und Positionen zuständig. Aus der Klasse `CarSimulator` werden lediglich die Methoden `update``()` und `draw``()` der Objekte der Klasse `Car` aufgerufen. Gegeben ist der folgende Code:
+und Positionen zuständig. Aus der Klasse `Cars` werden lediglich die Methoden `update``()` und `draw``()` der Objekte der Klasse `Car` aufgerufen. Gegeben ist der folgende Code:
 
-    public class CarSimulator extends GraphicsApp {
+    public class Cars extends GraphicsApp {
 
         private static final int CAR_NUM = 100;
         private static final int CAR_WIDTH = 15;
         private static final int CAR_HEIGHT = 5;
         private static final Color BG_COLOR = Color.BLACK;
-        private static final int WIDTH = 600;
-        private static final int HEIGHT = 300;
+        private static final int CANVAS_WIDTH = 600;
+        private static final int CANVAS_HEIGHT = 300;
         
         private ArrayList<Car> cars;
         
-        public void setup() {
+        public void intialize() {
             setupCanvas();
             setupCars();
         }
         
         public void draw() {
-            drawBackground();
+            drawBackground(BG_COLOR);
             drawCars();
         }
         
         private void setupCanvas() {
-            size(WIDTH, HEIGHT);
+            setCanvasSize(CANVAS_WIDTH, CANVAS_HEIGHT);
+            setFrameRate(FRAME_RATE);
         }
 
-        private void drawBackground() {
-            background(BG_COLOR);
-        }
         /* Your code here... */
 
     public class Car {
         
-        private double speed;
-        private Rect car;
-        
+        private float speed;
+        private Rectangle car;
         private int canvasWidth;
-        
-        private static final double MIN_SPEED = 2;
-        private static final double MAX_SPEED = 10;
-        
-        private static final RandomGenerator RGEN = RandomGenerator.getInstance();
+
+        private static final float MIN_SPEED = 2;
+        private static final float MAX_SPEED = 10;
+
+        private Random random;
         
         public Car(int carWidth, int carHeight, int canvasWidth, int canvasHeight) {
             this.canvasWidth = canvasWidth;
+            random = new Random();
             
             Color carColor = createRandomColor();
             int randomYPos = getRandomYPos(carHeight, canvasHeight);
             speed = getRandomSpeed();
             
-            car = new Rect(0, randomYPos, carWidth, carHeight, carColor);
+            car = new Rectangle(0, randomYPos, carWidth, carHeight, carColor);
         }
         
         /* Your code here... */
@@ -109,27 +107,43 @@ Image-Objekt zurückgegeben wird.
 ![image](img/09_sopranos.png)
 
 Gegeben ist folgender Rumpf:
-
-    public class ImageFlipper extends GraphicsApp {
-        private Image sopranos;
+```
+    public class ImageProcessing extends GraphicsApp {
+    
+        private Image sourceImage;
+        private Image workingCopy;
         
-        public void setup() {
-        size(600, 500);
-        sopranos = new Image(0, 0, "../assets/sopranos.jpg");
-        sopranos.draw();
+        public void intialize() {
+            setupCanvas();
+            setupImages();
+        }
+        
+        public void draw() {
+            drawBackground(BACKGROUND_COLOR);
+            workingCopy.draw();
+        }
+        
+        private void setupCanvas() {
+            setCanvasSize(CANVAS_WIDTH, CANVAS_HEIGHT);
+            setFrameRate(FRAME_RATE);
+        }
+
+        private void setupImages() {
+            sourceImage = new Image(0, 0, "data/assets/sopranos.jpg");
+            workingCopy = new Image(0, 0, "data/assets/sopranos.jpg");
         }
         
         private Image flipImageHorizontal(Image img) {
-        // image flipping code here
-        return img;
+            // image flipping code here
+            return img;
         }
 
-        public void keyPressed(KeyEvent k) {
-        sopranos = flipImageHorizontal(sopranos);
-        sopranos.draw();
+        public void onKeyPressed(KeyPressedEvent event) {
+            workingCopy = flipImageHorizontal(workingCopy);
+            workingCopy.draw();
         }
     }
-
+```
 **Erweiterung:** Implementieren Sie die Methode
 `flipImageVertical``(Image img)`, mit deren Hilfe das Bild vertikal
 gespiegelt wird.
