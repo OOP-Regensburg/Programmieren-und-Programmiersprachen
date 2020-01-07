@@ -5,11 +5,18 @@ date: 11. September 2019
 
 # Übungsblatt 10
 
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+
+## Starterpaket
+
 **Hinweis:** Im Starterpaket finden Sie den vorgegebenen Code für die
 unterschiedlichen Klassen sowie die beiden Bilddateien, die Sie als
 Ausgangsmaterial für die entsprechenden Aufgaben verwenden können.
 
-### **Car-Simulator**
+## Car-Simulator
 
 Erstellen Sie ein Programm, das den Verkehr auf einer mehrspurigen
 Straße animiert:
@@ -90,7 +97,7 @@ und Positionen zuständig. Aus der Klasse `CarSimulator` werden lediglich die Me
         
         /* Your code here... */
 
-### **Image Processing I - Bild spiegeln**
+## Image Processing I - Bild spiegeln
 
 Schreiben Sie eine Methode `flipImageHorizontal``(Image img)`, welche
 aus einem Image-Objekt die Pixel-Daten ausliest und anschließend so
@@ -125,7 +132,7 @@ Gegeben ist folgender Rumpf:
 `flipImageVertical``(Image img)`, mit deren Hilfe das Bild vertikal
 gespiegelt wird.
 
-### **Image Processing II: Weichzeichnen**
+## Image Processing II: Weichzeichnen
 
 Bildverarbeitung ist ein wichtiges Thema im Design und der
 Computergraphik. Um zu verstehen, wie Programme wie zum Beispiel
