@@ -19,7 +19,7 @@ Die Folien zu dieser Vorlesung finden Sie [hier](https://regensburger-forscher.d
 
 ## Zentralübung
 
--
+**Die Zentralübung am 14. Januar 2020 entfällt.**
 
 ## Übung
 
