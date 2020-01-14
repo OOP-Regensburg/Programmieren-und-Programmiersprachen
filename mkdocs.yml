@@ -56,7 +56,7 @@ nav:
     - U08: tasks/U08
     - U09: tasks/U09
     - U10: tasks/U10
-    #- U11: tasks/U11
+    - U11: tasks/U11
     #- U12: tasks/U12
   - Tutorials:
     - Bouncer: tutorials/Bouncer
