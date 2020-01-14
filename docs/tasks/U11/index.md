@@ -3,8 +3,14 @@ author:	Alexander Bazo
 date: 11. September 2019
 ---
 
+# Übungsblatt 11
 
-### Übungsblatt 11
+## Wichtige Informationen zur Bearbeitung der Aufgabe 
+
+ - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
+ - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
+ 
+## Aufgabe
 
 In den letzten Wochen der Übung zu OOP haben Sie klickbare Kreise, Autosimulationen und Bildverarbeitungsalgorithmen programmiert. Im aktuellen Starterpaket finden Sie eine Lösung zu diesen Aufgaben. Es haben sich allerdings in allen dreien Fehler eingeschlichen, die verhindern, dass die Anwendung wie gewünscht funktioniert.
 
