@@ -10,86 +10,79 @@ date: 11. September 2019
  - [Informationen zur Entwicklungsumgebung *IntelliJ IDEA*](https://regensburger-forscher.de/oop/tutorials/Entwicklungsumgebung)
  - [Informationen zum Im- und Export von Projekten](https://regensburger-forscher.de/oop/tutorials/Starterprojekte)
 
-## **Flight Planner**
+## Flight Planner
+Ihre Aufgabe ist es, eine KonsolenApplikation zu schreiben, welche aus einer Datei Flugziele
+von verschiedenen Städten ausliest und dem Nutzer erlaubt, einen Round-Trip
+mit dem Flugzeug zu planen.
 
-Ihre Aufgabe ist es, ein Programm zu schreiben, welches aus einer Datei Flugziele von verschiedenen Städten aus ausliest und dem Nutzer erlaubt, einen Round-Trip mit dem Flugzeug zu planen. Die Verbindungen werden zuerst in einer Datei abgelegt.
-
-Das Ergebnis sollte wie folgt aussehen:
-
-![image](img/11_flights.png)
-
-### Das IntelliJ-Projekt
-
-Legen Sie ein neues IntelliJ-Projekt an, und erzeugen Sie eine Klasse `FlightPlanner`, in der Sie die `main`-Methode des Programms implementieren. Die Datenbasis für die Aufgabe besteht aus einem `String`-Array, das wie folgt aussieht:
+Die Konversation soll nach folgendem Schema aufgebaut sein:
 
 ```
-    private String[] flights = new String[]{
-            "San Jose->San Francisco",
-            "San Jose->Anchorage",
-            "New York->Anchorage",
-            "New York->San Jose",
-            "New York->San Francisco",
-            "New York->Honolulu",
-            "Anchorage->New York",
-            "Anchorage->San Jose",
-            "Honolulu->New York",
-            "Honolulu->San Francisco",
-            "Denver->San Jose",
-            "San Francisco->New York",
-            "San Francisco->Honolulu",
-            "San Francisco->Denver"};
+Let's plan a round trip:
+Here is a list of all the destinations in our database:
+San Jose
+New York
+Anchorage
+Honolulu
+Denver
+San Francisco
+Which city do you want to start in: 
+Honolulu
+Where do you want to go from Honolulu?
+New York
+San Francisco
+San Francisco
+Where do you want to go from San Francisco?
+New York
+Denver
+Honolulu
+Honolulu
+You completed your trip!
+Your trips spanned the following destinations:
+Honolulu -> San Francisco -> Honolulu
 ```
 
-Schreiben Sie eine Klasse `FlightDestinationParser`, die dieses Array sinnvoll in eine `HashMap` speichert.
+**Hinweis:** Eine besondere Schwierigkeit in dieser Aufgabe ist, angemessene Datenstrukturen zu modellieren, um sich die Informationen, die für den weiteren Ablauf
+benötigt werden, abzuspeichern. Man muss sich sowohl die möglichen Flüge aus der
+Datei `flights.txt` merken, als auch die Route, die der Nutzer schon zurückgelegt
+hat. Überlegen Sie hier, wann eine ArrayList und wann eine HashMap sinnvoll zu
+benutzen sind.
 
-**Hinweis:** Eine besondere Schwierigkeit in dieser Aufgabe ist,
-angemessene Datenstrukturen zu modellieren, um sich die Informationen,
-die für den weiteren Ablauf benötigt werden, abzuspeichern. Man muss
-sich sowohl die möglichen Flüge aus der Datei `flights.txt` merken, als auch die Route, die der Nutzer schon zurückgelegt hat. Überlegen Sie hier, wann eine `ArrayList` und wann eine `HashMap` sinnvoll zu benutzen sind. Die Flugdaten stehen in einer Datei `data/assets/flights.txt` im Starterpaket zur Verfügung. Diese Datei ist wie folgt formatiert:
+Die Flugdaten stehen in einer Datei `data/flights.txt` im Starterpaket zur
+Verfügung. Diese Datei ist wie folgt formatiert:
 
--   Jede Zeile besteht aus einem Städtepaar, unterteilt durch einen
-    Pfeil, z.B.:\
-    **New York -\> Anchorage**
+- Jede Zeile besteht aus einem Schlüssel-Wert-Paar getrennt durch `->`
+- Die zugehörigen Werte sind durch `,` getrennt
+- Die Datei soll der Übersicht halber Leerzeilen enthalten können (die beim Auslesen zu ignorieren sind)
 
--   Die Datei soll der Übersicht halber Leerzeilen enthalten können (die
-    beim Auslesen zu ignorieren sind)
+Die vorgegebene Datei enthält den unten stehenden Inhalt. Ihr Programm sollte aber auch mit anderen Städte-Kombinationen funktionieren, die in der selben Weise formatiert sind.
 
-Die vorgegebene Datei enthält folgenden Inhalt. Ihr Programm sollte aber auch mit anderen Städte-Kombinationen funktionieren, die in der selben Weise formatiert sind.
+````
+San Jose -> San Francisco, Anchorage
+New York -> Anchorage, San Jose, San Francisco, Honolulu
+Anchorage -> New York, San Jose
+Honolulu -> New York, San Francisco
+Denver -> San Jose
+San Francisco -> New York, Denver, Honolulu
+````
 
-    San Jose->San Francisco
-    San Jose->Anchorage
+Um die eingelesenen Zeilen in *Teilstrings* zu unterteilen können sie die Methode [`String.split()`](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#split())
+nutzen. Übergeben sie der Methode das/die Zeichen bei dem sie den String trennen wollen. Das Ergebnis ist ein `Array` welches alle 'Teilstrings' beinhaltet.
 
-    New York->Anchorage
-    New York->San Jose
-    New York->San Francisco
-    New York->Honolulu
+Achten sie darauf in ihrem Programm überflüssige Leerzeichen zu entfernen.
+Hierzu können sie die Methode [`String.trim()`](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#trim()) nutzen.
 
-    Anchorage->New York
-    Anchorage->San Jose
 
-    Honolulu->New York
-    Honolulu->San Francisco
+Der Code zum einlesen der Datei und der einzelnen Zeilen ist bereits gegeben. Dazu wird beim Programmstart die statische Methode `readLinesFromFile` aufgerufen. Deren Rückgabe stellt ein Array dar, in dem jede Zeile der Datei als einzelner String vorliegt. Zerlegen sie den String der in jeder Zeile 
+ausgelesen wird sinnvoll in `Start` und `Ziele`. Überlegen sie in welchen Datenstrukturen `Start` und `Ziele` abgebildet werden können.
+Finden sie außerdem eine sinnvolle Möglichkeit `Start` und `Ziele` miteinander zu verknüpfen.
 
-    Denver->San Jose
-
-    San Francisco->New York
-    San Francisco->Honolulu
-    San Francisco->Denver
+Um eine Nutzereingabe zu lesen kann die Klasse `java.util.Scanner` verwendet werden. Eine darauf basierende Methode `readLine()` welche eine Zeile ausliest und den Inhalt als String zurückgibt ist bereits vorgegeben. Denken sie daran falsche Eingaben (z.B. Tippfehler in Städtenamen) abzufangen.
 
 Ihr Programm soll folgende Anforderungen erfüllen:
 
--   Die Informationen aus der Datei `flights.txt` einlesen und in einer
-    geeigneten Datenstruktur abspeichern.
-
--   Die komplette Städteliste anzeigen.
-
--   Den Benutzer eine Stadt auswählen lassen, von der aus die Rundreise
-    beginnt.
-
--   In einer Schleife alle Städte anzeigen, die von der aktuellen Stadt
-    aus direkt erreicht werden können und den Nutzer nach der nächsten
-    Stadt fragen.
-
--   Sobald der Nutzer wieder zur Anfangsstadt kommt, bricht die Schleife
-    ab und das Ergebnis der Flugroute wird ausgegeben.
-
+* Die ausgelesenen Zeilen der Datei `flights.txt` sinnvoll aufbereiten und in einer geeigneten Datenstruktur abspeichern.
+* Die komplette Städteliste anzeigen.
+* Den Benutzer eine Stadt auswählen lassen, von der aus die Rundreise beginnt.
+* In einer Schleife alle Städte anzeigen, die von der aktuellen Stadt aus direkt erreicht werden können und den Nutzer nach der nächsten Stadt fragen.
+* Sobald der Nutzer wieder zur Anfangsstadt kommt, bricht die Schleife ab und das Ergebnis der Flugroute wird ausgegeben.

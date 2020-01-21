@@ -41,6 +41,7 @@ nav:
     #- Planhaftes Vorgehen bei der Softwareentwicklung: class/10-Planhaftes-Vorgehen-bei-der-Softwareentwicklung
     - Mehrdimensionale Arrays und Listen: class/11-Komplexe-Datenstrukturen
     - Qualitätsaspekte von Quellcode und Debugging: class/12-Codequalitaet-und-Debugging
+    - Mehrdimensionale Arrays und Listen: class/13-Collections
     #- Speicherverwaltung auf Heap- und Stack: class/13-Speicher-und-Exceptions
     #- Externes Bereitstellen und Speichern von Inhalten in Dateien: class/14-Persistente-Daten
     #- Zusammenfassung und Ausblick: class/15-Zusammenfassung-und-Ausblick
@@ -57,7 +58,7 @@ nav:
     - U09: tasks/U09
     - U10: tasks/U10
     - U11: tasks/U11
-    #- U12: tasks/U12
+    - U12: tasks/U12
   - Tutorials:
     - Bouncer: tutorials/Bouncer
     - Die Entwicklungsumgebung: tutorials/Entwicklungsumgebung
